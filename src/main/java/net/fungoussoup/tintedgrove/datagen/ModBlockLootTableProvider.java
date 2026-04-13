@@ -273,7 +273,70 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.MAGENTA_WOOD_TRAPDOOR.get());
         add(ModBlocks.MAGENTA_WOOD_DOOR.get(),
                 block -> createDoorTable(ModBlocks.MAGENTA_WOOD_DOOR.get()));
-        
+
+        dropSelf(ModBlocks.RED_SAPLING.get());
+        this.add(ModBlocks.RED_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.RED_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.BLUE_SAPLING.get());
+        this.add(ModBlocks.BLUE_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.BLUE_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.GREEN_SAPLING.get());
+        this.add(ModBlocks.GREEN_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.GREEN_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.YELLOW_SAPLING.get());
+        this.add(ModBlocks.YELLOW_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.YELLOW_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.PURPLE_SAPLING.get());
+        this.add(ModBlocks.PURPLE_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.PURPLE_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.CYAN_SAPLING.get());
+        this.add(ModBlocks.CYAN_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.CYAN_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.ORANGE_SAPLING.get());
+        this.add(ModBlocks.ORANGE_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.ORANGE_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.LIME_SAPLING.get());
+        this.add(ModBlocks.LIME_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.LIME_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.PINK_SAPLING.get());
+        this.add(ModBlocks.PINK_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.PINK_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.BROWN_SAPLING.get());
+        this.add(ModBlocks.BROWN_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.BROWN_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.BLACK_SAPLING.get());
+        this.add(ModBlocks.BLACK_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.BLACK_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.WHITE_SAPLING.get());
+        this.add(ModBlocks.WHITE_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.WHITE_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.GRAY_SAPLING.get());
+        this.add(ModBlocks.GRAY_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.GRAY_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.LIGHT_GRAY_SAPLING.get());
+        this.add(ModBlocks.LIGHT_GRAY_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.LIGHT_GRAY_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.LIGHT_BLUE_SAPLING.get());
+        this.add(ModBlocks.LIGHT_BLUE_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.LIGHT_BLUE_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        dropSelf(ModBlocks.MAGENTA_SAPLING.get());
+        this.add(ModBlocks.MAGENTA_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.MAGENTA_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
     }
 
     @Override

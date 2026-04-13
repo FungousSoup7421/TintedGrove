@@ -227,5 +227,54 @@
   "block.tintedgrove.blue_wood_door": "Blue Wood Door",
   "block.tintedgrove.blue_wood_trapdoor": "Blue Wood Trapdoor",
 
-  "creativetab.tintedgrove.tinted_grove": "Tinted Grove"
+  "block.tintedgrove.red_leaves": "Red Leaves",
+  "block.tintedgrove.red_sapling": "Red Sapling",
+
+  "block.tintedgrove.blue_leaves": "Blue Leaves",
+  "block.tintedgrove.blue_sapling": "Blue Sapling",
+
+  "block.tintedgrove.green_leaves": "Green Leaves",
+  "block.tintedgrove.green_sapling": "Green Sapling",
+
+  "block.tintedgrove.yellow_leaves": "Yellow Leaves",
+  "block.tintedgrove.yellow_sapling": "Yellow Sapling",
+
+  "block.tintedgrove.purple_leaves": "Purple Leaves",
+  "block.tintedgrove.purple_sapling": "Purple Sapling",
+
+  "block.tintedgrove.cyan_leaves": "Cyan Leaves",
+  "block.tintedgrove.cyan_sapling": "Cyan Sapling",
+
+  "block.tintedgrove.orange_leaves": "Orange Leaves",
+  "block.tintedgrove.orange_sapling": "Orange Sapling",
+
+  "block.tintedgrove.lime_leaves": "Lime Leaves",
+  "block.tintedgrove.lime_sapling": "Lime Sapling",
+
+  "block.tintedgrove.pink_leaves": "Pink Leaves",
+  "block.tintedgrove.pink_sapling": "Pink Sapling",
+
+  "block.tintedgrove.brown_leaves": "Brown Leaves",
+  "block.tintedgrove.brown_sapling": "Brown Sapling",
+
+  "block.tintedgrove.black_leaves": "Black Leaves",
+  "block.tintedgrove.black_sapling": "Black Sapling",
+
+  "block.tintedgrove.white_leaves": "White Leaves",
+  "block.tintedgrove.white_sapling": "White Sapling",
+
+  "block.tintedgrove.gray_leaves": "Gray Leaves",
+  "block.tintedgrove.gray_sapling": "Gray Sapling",
+
+  "block.tintedgrove.light_gray_leaves": "Light Gray Leaves",
+  "block.tintedgrove.light_gray_sapling": "Light Gray Sapling",
+
+  "block.tintedgrove.light_blue_leaves": "Light Blue Leaves",
+  "block.tintedgrove.light_blue_sapling": "Light Blue Sapling",
+
+  "block.tintedgrove.magenta_leaves": "Magenta Leaves",
+  "block.tintedgrove.magenta_sapling": "Magenta Sapling",
+
+  "creativetab.tintedgrove.tinted_grove": "Tinted Grove",
+  "creativetab.tintedgrove.tinted_grove_trees": "Tinted Grove Trees"
 }

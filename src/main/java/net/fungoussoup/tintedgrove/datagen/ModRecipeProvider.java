@@ -9,6 +9,7 @@ import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -107,12 +108,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         // RED
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RED_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RED_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.RED_LOG.get())
                 .unlockedBy("has_red_log", has(ModBlocks.RED_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_RED_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_RED_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_RED_LOG.get())
@@ -139,19 +140,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_red_wood", has(ModBlocks.RED_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.RED_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.RED_PLANK.get())).group("red_wood")
                 .unlockedBy("has_red_wood", has(ModBlocks.RED_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.RED_WOOD_DOOR.get(), Ingredient.of(ModBlocks.RED_WOOD.get())).group("red_wood")
+        doorBuilder(ModBlocks.RED_WOOD_DOOR.get(), Ingredient.of(ModBlocks.RED_PLANK.get())).group("red_wood")
                 .unlockedBy("has_red_wood", has(ModBlocks.RED_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.RED_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.RED_WOOD.get())).group("red_wood")
+        trapdoorBuilder(ModBlocks.RED_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.RED_PLANK.get())).group("red_wood")
                 .unlockedBy("has_red_wood", has(ModBlocks.RED_PLANK.get())).save(recipeOutput);
 
         // BLUE
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLUE_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLUE_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.BLUE_LOG.get())
                 .unlockedBy("has_blue_log", has(ModBlocks.BLUE_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_BLUE_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_BLUE_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_BLUE_LOG.get())
@@ -178,19 +179,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_blue_wood", has(ModBlocks.BLUE_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.BLUE_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.BLUE_PLANK.get())).group("blue_wood")
                 .unlockedBy("has_blue_wood", has(ModBlocks.BLUE_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.BLUE_WOOD_DOOR.get(), Ingredient.of(ModBlocks.BLUE_WOOD.get())).group("blue_wood")
+        doorBuilder(ModBlocks.BLUE_WOOD_DOOR.get(), Ingredient.of(ModBlocks.BLUE_PLANK.get())).group("blue_wood")
                 .unlockedBy("has_blue_wood", has(ModBlocks.BLUE_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.BLUE_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.BLUE_WOOD.get())).group("blue_wood")
+        trapdoorBuilder(ModBlocks.BLUE_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.BLUE_PLANK.get())).group("blue_wood")
                 .unlockedBy("has_blue_wood", has(ModBlocks.BLUE_PLANK.get())).save(recipeOutput);
 
         // GREEN
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GREEN_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GREEN_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.GREEN_LOG.get())
                 .unlockedBy("has_green_log", has(ModBlocks.GREEN_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_GREEN_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_GREEN_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_GREEN_LOG.get())
@@ -217,19 +218,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_green_wood", has(ModBlocks.GREEN_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.GREEN_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.GREEN_PLANK.get())).group("green_wood")
                 .unlockedBy("has_green_wood", has(ModBlocks.GREEN_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.GREEN_WOOD_DOOR.get(), Ingredient.of(ModBlocks.GREEN_WOOD.get())).group("green_wood")
+        doorBuilder(ModBlocks.GREEN_WOOD_DOOR.get(), Ingredient.of(ModBlocks.GREEN_PLANK.get())).group("green_wood")
                 .unlockedBy("has_green_wood", has(ModBlocks.GREEN_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.GREEN_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.GREEN_WOOD.get())).group("green_wood")
+        trapdoorBuilder(ModBlocks.GREEN_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.GREEN_PLANK.get())).group("green_wood")
                 .unlockedBy("has_green_wood", has(ModBlocks.GREEN_PLANK.get())).save(recipeOutput);
 
         // YELLOW
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.YELLOW_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.YELLOW_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.YELLOW_LOG.get())
                 .unlockedBy("has_yellow_log", has(ModBlocks.YELLOW_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_YELLOW_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_YELLOW_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_YELLOW_LOG.get())
@@ -256,19 +257,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_yellow_wood", has(ModBlocks.YELLOW_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.YELLOW_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.YELLOW_PLANK.get())).group("yellow_wood")
                 .unlockedBy("has_yellow_wood", has(ModBlocks.YELLOW_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.YELLOW_WOOD_DOOR.get(), Ingredient.of(ModBlocks.YELLOW_WOOD.get())).group("yellow_wood")
+        doorBuilder(ModBlocks.YELLOW_WOOD_DOOR.get(), Ingredient.of(ModBlocks.YELLOW_PLANK.get())).group("yellow_wood")
                 .unlockedBy("has_yellow_wood", has(ModBlocks.YELLOW_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.YELLOW_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.YELLOW_WOOD.get())).group("yellow_wood")
+        trapdoorBuilder(ModBlocks.YELLOW_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.YELLOW_PLANK.get())).group("yellow_wood")
                 .unlockedBy("has_yellow_wood", has(ModBlocks.YELLOW_PLANK.get())).save(recipeOutput);
 
         // PURPLE
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PURPLE_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PURPLE_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.PURPLE_LOG.get())
                 .unlockedBy("has_purple_log", has(ModBlocks.PURPLE_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_PURPLE_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_PURPLE_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_PURPLE_LOG.get())
@@ -295,19 +296,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_purple_wood", has(ModBlocks.PURPLE_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.PURPLE_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.PURPLE_PLANK.get())).group("purple_wood")
                 .unlockedBy("has_purple_wood", has(ModBlocks.PURPLE_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.PURPLE_WOOD_DOOR.get(), Ingredient.of(ModBlocks.PURPLE_WOOD.get())).group("purple_wood")
+        doorBuilder(ModBlocks.PURPLE_WOOD_DOOR.get(), Ingredient.of(ModBlocks.PURPLE_PLANK.get())).group("purple_wood")
                 .unlockedBy("has_purple_wood", has(ModBlocks.PURPLE_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.PURPLE_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.PURPLE_WOOD.get())).group("purple_wood")
+        trapdoorBuilder(ModBlocks.PURPLE_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.PURPLE_PLANK.get())).group("purple_wood")
                 .unlockedBy("has_purple_wood", has(ModBlocks.PURPLE_PLANK.get())).save(recipeOutput);
 
         // CYAN
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CYAN_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CYAN_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.CYAN_LOG.get())
                 .unlockedBy("has_cyan_log", has(ModBlocks.CYAN_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_CYAN_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_CYAN_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_CYAN_LOG.get())
@@ -334,19 +335,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_cyan_wood", has(ModBlocks.CYAN_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.CYAN_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.CYAN_PLANK.get())).group("cyan_wood")
                 .unlockedBy("has_cyan_wood", has(ModBlocks.CYAN_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.CYAN_WOOD_DOOR.get(), Ingredient.of(ModBlocks.CYAN_WOOD.get())).group("cyan_wood")
+        doorBuilder(ModBlocks.CYAN_WOOD_DOOR.get(), Ingredient.of(ModBlocks.CYAN_PLANK.get())).group("cyan_wood")
                 .unlockedBy("has_cyan_wood", has(ModBlocks.CYAN_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.CYAN_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.CYAN_WOOD.get())).group("cyan_wood")
+        trapdoorBuilder(ModBlocks.CYAN_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.CYAN_PLANK.get())).group("cyan_wood")
                 .unlockedBy("has_cyan_wood", has(ModBlocks.CYAN_PLANK.get())).save(recipeOutput);
 
         // ORANGE
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ORANGE_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ORANGE_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.ORANGE_LOG.get())
                 .unlockedBy("has_orange_log", has(ModBlocks.ORANGE_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_ORANGE_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_ORANGE_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_ORANGE_LOG.get())
@@ -373,19 +374,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_orange_wood", has(ModBlocks.ORANGE_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.ORANGE_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.ORANGE_PLANK.get())).group("orange_wood")
                 .unlockedBy("has_orange_wood", has(ModBlocks.ORANGE_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.ORANGE_WOOD_DOOR.get(), Ingredient.of(ModBlocks.ORANGE_WOOD.get())).group("orange_wood")
+        doorBuilder(ModBlocks.ORANGE_WOOD_DOOR.get(), Ingredient.of(ModBlocks.ORANGE_PLANK.get())).group("orange_wood")
                 .unlockedBy("has_orange_wood", has(ModBlocks.ORANGE_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.ORANGE_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.ORANGE_WOOD.get())).group("orange_wood")
+        trapdoorBuilder(ModBlocks.ORANGE_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.ORANGE_PLANK.get())).group("orange_wood")
                 .unlockedBy("has_orange_wood", has(ModBlocks.ORANGE_PLANK.get())).save(recipeOutput);
 
         // LIME
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIME_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIME_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.LIME_LOG.get())
                 .unlockedBy("has_lime_log", has(ModBlocks.LIME_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_LIME_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_LIME_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_LIME_LOG.get())
@@ -412,19 +413,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_lime_wood", has(ModBlocks.LIME_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.LIME_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.LIME_PLANK.get())).group("lime_wood")
                 .unlockedBy("has_lime_wood", has(ModBlocks.LIME_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.LIME_WOOD_DOOR.get(), Ingredient.of(ModBlocks.LIME_WOOD.get())).group("lime_wood")
+        doorBuilder(ModBlocks.LIME_WOOD_DOOR.get(), Ingredient.of(ModBlocks.LIME_PLANK.get())).group("lime_wood")
                 .unlockedBy("has_lime_wood", has(ModBlocks.LIME_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.LIME_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.LIME_WOOD.get())).group("lime_wood")
+        trapdoorBuilder(ModBlocks.LIME_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.LIME_PLANK.get())).group("lime_wood")
                 .unlockedBy("has_lime_wood", has(ModBlocks.LIME_PLANK.get())).save(recipeOutput);
 
         // PINK
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PINK_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PINK_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.PINK_LOG.get())
                 .unlockedBy("has_pink_log", has(ModBlocks.PINK_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_PINK_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_PINK_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_PINK_LOG.get())
@@ -451,19 +452,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_pink_wood", has(ModBlocks.PINK_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.PINK_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.PINK_PLANK.get())).group("pink_wood")
                 .unlockedBy("has_pink_wood", has(ModBlocks.PINK_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.PINK_WOOD_DOOR.get(), Ingredient.of(ModBlocks.PINK_WOOD.get())).group("pink_wood")
+        doorBuilder(ModBlocks.PINK_WOOD_DOOR.get(), Ingredient.of(ModBlocks.PINK_PLANK.get())).group("pink_wood")
                 .unlockedBy("has_pink_wood", has(ModBlocks.PINK_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.PINK_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.PINK_WOOD.get())).group("pink_wood")
+        trapdoorBuilder(ModBlocks.PINK_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.PINK_PLANK.get())).group("pink_wood")
                 .unlockedBy("has_pink_wood", has(ModBlocks.PINK_PLANK.get())).save(recipeOutput);
 
         // BROWN
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BROWN_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BROWN_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.BROWN_LOG.get())
                 .unlockedBy("has_brown_log", has(ModBlocks.BROWN_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_BROWN_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_BROWN_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_BROWN_LOG.get())
@@ -490,19 +491,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_brown_wood", has(ModBlocks.BROWN_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.BROWN_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.BROWN_PLANK.get())).group("brown_wood")
                 .unlockedBy("has_brown_wood", has(ModBlocks.BROWN_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.BROWN_WOOD_DOOR.get(), Ingredient.of(ModBlocks.BROWN_WOOD.get())).group("brown_wood")
+        doorBuilder(ModBlocks.BROWN_WOOD_DOOR.get(), Ingredient.of(ModBlocks.BROWN_PLANK.get())).group("brown_wood")
                 .unlockedBy("has_brown_wood", has(ModBlocks.BROWN_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.BROWN_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.BROWN_WOOD.get())).group("brown_wood")
+        trapdoorBuilder(ModBlocks.BROWN_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.BROWN_PLANK.get())).group("brown_wood")
                 .unlockedBy("has_brown_wood", has(ModBlocks.BROWN_PLANK.get())).save(recipeOutput);
 
         // BLACK
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLACK_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLACK_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.BLACK_LOG.get())
                 .unlockedBy("has_black_log", has(ModBlocks.BLACK_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_BLACK_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_BLACK_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_BLACK_LOG.get())
@@ -529,19 +530,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_black_wood", has(ModBlocks.BLACK_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.BLACK_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.BLACK_PLANK.get())).group("black_wood")
                 .unlockedBy("has_black_wood", has(ModBlocks.BLACK_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.BLACK_WOOD_DOOR.get(), Ingredient.of(ModBlocks.BLACK_WOOD.get())).group("black_wood")
+        doorBuilder(ModBlocks.BLACK_WOOD_DOOR.get(), Ingredient.of(ModBlocks.BLACK_PLANK.get())).group("black_wood")
                 .unlockedBy("has_black_wood", has(ModBlocks.BLACK_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.BLACK_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.BLACK_WOOD.get())).group("black_wood")
+        trapdoorBuilder(ModBlocks.BLACK_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.BLACK_PLANK.get())).group("black_wood")
                 .unlockedBy("has_black_wood", has(ModBlocks.BLACK_PLANK.get())).save(recipeOutput);
 
         // WHITE
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WHITE_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WHITE_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.WHITE_LOG.get())
                 .unlockedBy("has_white_log", has(ModBlocks.WHITE_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_WHITE_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_WHITE_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_WHITE_LOG.get())
@@ -568,19 +569,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_white_wood", has(ModBlocks.WHITE_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.WHITE_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.WHITE_PLANK.get())).group("white_wood")
                 .unlockedBy("has_white_wood", has(ModBlocks.WHITE_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.WHITE_WOOD_DOOR.get(), Ingredient.of(ModBlocks.WHITE_WOOD.get())).group("white_wood")
+        doorBuilder(ModBlocks.WHITE_WOOD_DOOR.get(), Ingredient.of(ModBlocks.WHITE_PLANK.get())).group("white_wood")
                 .unlockedBy("has_white_wood", has(ModBlocks.WHITE_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.WHITE_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.WHITE_WOOD.get())).group("white_wood")
+        trapdoorBuilder(ModBlocks.WHITE_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.WHITE_PLANK.get())).group("white_wood")
                 .unlockedBy("has_white_wood", has(ModBlocks.WHITE_PLANK.get())).save(recipeOutput);
 
         // GRAY
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GRAY_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GRAY_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.GRAY_LOG.get())
                 .unlockedBy("has_gray_log", has(ModBlocks.GRAY_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_GRAY_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_GRAY_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_GRAY_LOG.get())
@@ -607,19 +608,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_gray_wood", has(ModBlocks.GRAY_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.GRAY_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.GRAY_PLANK.get())).group("gray_wood")
                 .unlockedBy("has_gray_wood", has(ModBlocks.GRAY_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.GRAY_WOOD_DOOR.get(), Ingredient.of(ModBlocks.GRAY_WOOD.get())).group("gray_wood")
+        doorBuilder(ModBlocks.GRAY_WOOD_DOOR.get(), Ingredient.of(ModBlocks.GRAY_PLANK.get())).group("gray_wood")
                 .unlockedBy("has_gray_wood", has(ModBlocks.GRAY_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.GRAY_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.GRAY_WOOD.get())).group("gray_wood")
+        trapdoorBuilder(ModBlocks.GRAY_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.GRAY_PLANK.get())).group("gray_wood")
                 .unlockedBy("has_gray_wood", has(ModBlocks.GRAY_PLANK.get())).save(recipeOutput);
 
         // LIGHT_GRAY
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_GRAY_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_GRAY_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.LIGHT_GRAY_LOG.get())
                 .unlockedBy("has_light_gray_log", has(ModBlocks.LIGHT_GRAY_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_LIGHT_GRAY_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_LIGHT_GRAY_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_LIGHT_GRAY_LOG.get())
@@ -646,19 +647,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_light_gray_wood", has(ModBlocks.LIGHT_GRAY_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.LIGHT_GRAY_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.LIGHT_GRAY_PLANK.get())).group("light_gray_wood")
                 .unlockedBy("has_light_gray_wood", has(ModBlocks.LIGHT_GRAY_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.LIGHT_GRAY_WOOD_DOOR.get(), Ingredient.of(ModBlocks.LIGHT_GRAY_WOOD.get())).group("light_gray_wood")
+        doorBuilder(ModBlocks.LIGHT_GRAY_WOOD_DOOR.get(), Ingredient.of(ModBlocks.LIGHT_GRAY_PLANK.get())).group("light_gray_wood")
                 .unlockedBy("has_light_gray_wood", has(ModBlocks.LIGHT_GRAY_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.LIGHT_GRAY_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.LIGHT_GRAY_WOOD.get())).group("light_gray_wood")
+        trapdoorBuilder(ModBlocks.LIGHT_GRAY_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.LIGHT_GRAY_PLANK.get())).group("light_gray_wood")
                 .unlockedBy("has_light_gray_wood", has(ModBlocks.LIGHT_GRAY_PLANK.get())).save(recipeOutput);
 
         // LIGHT_BLUE
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_BLUE_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_BLUE_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.LIGHT_BLUE_LOG.get())
                 .unlockedBy("has_light_blue_log", has(ModBlocks.LIGHT_BLUE_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_LIGHT_BLUE_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_LIGHT_BLUE_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_LIGHT_BLUE_LOG.get())
@@ -685,19 +686,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_light_blue_wood", has(ModBlocks.LIGHT_BLUE_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.LIGHT_BLUE_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.LIGHT_BLUE_PLANK.get())).group("light_blue_wood")
                 .unlockedBy("has_light_blue_wood", has(ModBlocks.LIGHT_BLUE_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.LIGHT_BLUE_WOOD_DOOR.get(), Ingredient.of(ModBlocks.LIGHT_BLUE_WOOD.get())).group("light_blue_wood")
+        doorBuilder(ModBlocks.LIGHT_BLUE_WOOD_DOOR.get(), Ingredient.of(ModBlocks.LIGHT_BLUE_PLANK.get())).group("light_blue_wood")
                 .unlockedBy("has_light_blue_wood", has(ModBlocks.LIGHT_BLUE_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.LIGHT_BLUE_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.LIGHT_BLUE_WOOD.get())).group("light_blue_wood")
+        trapdoorBuilder(ModBlocks.LIGHT_BLUE_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.LIGHT_BLUE_PLANK.get())).group("light_blue_wood")
                 .unlockedBy("has_light_blue_wood", has(ModBlocks.LIGHT_BLUE_PLANK.get())).save(recipeOutput);
 
         // MAGENTA
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MAGENTA_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MAGENTA_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.MAGENTA_LOG.get())
                 .unlockedBy("has_magenta_log", has(ModBlocks.MAGENTA_LOG)).save(recipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_MAGENTA_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_MAGENTA_WOOD.get(), 3)
                 .pattern("LL")
                 .pattern("LL")
                 .define('L', ModBlocks.STRIPPED_MAGENTA_LOG.get())
@@ -724,10 +725,154 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_magenta_wood", has(ModBlocks.MAGENTA_PLANK.get())).save(recipeOutput);
         fenceGateBuilder(ModBlocks.MAGENTA_WOOD_FENCE_GATE.get(), Ingredient.of(ModBlocks.MAGENTA_PLANK.get())).group("magenta_wood")
                 .unlockedBy("has_magenta_wood", has(ModBlocks.MAGENTA_PLANK.get())).save(recipeOutput);
-        doorBuilder(ModBlocks.MAGENTA_WOOD_DOOR.get(), Ingredient.of(ModBlocks.MAGENTA_WOOD.get())).group("magenta_wood")
+        doorBuilder(ModBlocks.MAGENTA_WOOD_DOOR.get(), Ingredient.of(ModBlocks.MAGENTA_PLANK.get())).group("magenta_wood")
                 .unlockedBy("has_magenta_wood", has(ModBlocks.MAGENTA_PLANK.get())).save(recipeOutput);
-        trapdoorBuilder(ModBlocks.MAGENTA_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.MAGENTA_WOOD.get())).group("magenta_wood")
+        trapdoorBuilder(ModBlocks.MAGENTA_WOOD_TRAPDOOR.get(), Ingredient.of(ModBlocks.MAGENTA_PLANK.get())).group("magenta_wood")
                 .unlockedBy("has_magenta_wood", has(ModBlocks.MAGENTA_PLANK.get())).save(recipeOutput);
+
+        // RED - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RED_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.RED_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_red_dye", has(Items.RED_DYE)).save(recipeOutput);
+
+        // BLUE - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLUE_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.BLUE_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_blue_dye", has(Items.BLUE_DYE)).save(recipeOutput);
+
+        // GREEN - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GREEN_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.GREEN_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_green_dye", has(Items.GREEN_DYE)).save(recipeOutput);
+
+        // YELLOW - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.YELLOW_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.YELLOW_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_yellow_dye", has(Items.YELLOW_DYE)).save(recipeOutput);
+
+        // PURPLE - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PURPLE_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.PURPLE_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_purple_dye", has(Items.PURPLE_DYE)).save(recipeOutput);
+
+        // CYAN - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CYAN_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.CYAN_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_cyan_dye", has(Items.CYAN_DYE)).save(recipeOutput);
+
+        // ORANGE - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ORANGE_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.ORANGE_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_orange_dye", has(Items.ORANGE_DYE)).save(recipeOutput);
+
+        // LIME - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIME_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.LIME_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_lime_dye", has(Items.LIME_DYE)).save(recipeOutput);
+
+        // PINK - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PINK_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.PINK_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_pink_dye", has(Items.PINK_DYE)).save(recipeOutput);
+
+        // BROWN - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BROWN_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.BROWN_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_brown_dye", has(Items.BROWN_DYE)).save(recipeOutput);
+
+        // BLACK - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLACK_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.BLACK_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_black_dye", has(Items.BLACK_DYE)).save(recipeOutput);
+
+        // WHITE - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WHITE_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.WHITE_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_white_dye", has(Items.WHITE_DYE)).save(recipeOutput);
+
+        // GRAY - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GRAY_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.GRAY_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_gray_dye", has(Items.GRAY_DYE)).save(recipeOutput);
+
+        // LIGHT_GRAY - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_GRAY_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.LIGHT_GRAY_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_light_gray_dye", has(Items.LIGHT_GRAY_DYE)).save(recipeOutput);
+
+        // LIGHT_BLUE - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_BLUE_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.LIGHT_BLUE_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_light_blue_dye", has(Items.LIGHT_BLUE_DYE)).save(recipeOutput);
+
+        // MAGENTA - Tree
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MAGENTA_SAPLING.get())
+                .pattern(" D ")
+                .pattern("DSD")
+                .pattern(" D ")
+                .define('D', Items.MAGENTA_DYE)
+                .define('S', Blocks.OAK_SAPLING)
+                .unlockedBy("has_magenta_dye", has(Items.MAGENTA_DYE)).save(recipeOutput);
 
     }
 

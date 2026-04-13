@@ -17,7 +17,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TintedGrove.MOD_ID);
 
     public static final Supplier<CreativeModeTab> TINTED_GROVE_TAB = CREATIVE_MODE_TAB.register("tinted_grove_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BLUE_LOG.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.CYAN_LOG.get()))
                     .title(Component.translatable("creativetab.tintedgrove.tinted_grove"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.RED_LOG);
@@ -246,13 +246,60 @@ public class ModCreativeModeTabs {
 
                     }).build());
 
-//    public static final Supplier<CreativeModeTab> RANDOM_TAB = CREATIVE_MODE_TAB.register("random_tab",
-//            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get()))
-//                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(TintedGrove.MOD_ID, "bismuth_items_tab"))
-//                    .title(Component.translatable("creativetab.tintedgrove.random_tab"))
-//                    .displayItems((itemDisplayParameters, output) -> {
-//                        output.accept(ModItems.RUBY);
-//                    }).build());
+    public static final Supplier<CreativeModeTab> TINTED_GROVE_TREES_TAB = CREATIVE_MODE_TAB.register("tinted_grove_trees_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.CYAN_SAPLING.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(TintedGrove.MOD_ID, "tinted_grove_tab"))
+                    .title(Component.translatable("creativetab.tintedgrove.tinted_grove_trees"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.RED_SAPLING);
+                        output.accept(ModBlocks.RED_LEAVES);
+
+                        output.accept(ModBlocks.BLUE_SAPLING);
+                        output.accept(ModBlocks.BLUE_LEAVES);
+
+                        output.accept(ModBlocks.GREEN_SAPLING);
+                        output.accept(ModBlocks.GREEN_LEAVES);
+
+                        output.accept(ModBlocks.YELLOW_SAPLING);
+                        output.accept(ModBlocks.YELLOW_LEAVES);
+
+                        output.accept(ModBlocks.PURPLE_SAPLING);
+                        output.accept(ModBlocks.PURPLE_LEAVES);
+
+                        output.accept(ModBlocks.CYAN_SAPLING);
+                        output.accept(ModBlocks.CYAN_LEAVES);
+
+                        output.accept(ModBlocks.ORANGE_SAPLING);
+                        output.accept(ModBlocks.ORANGE_LEAVES);
+
+                        output.accept(ModBlocks.LIME_SAPLING);
+                        output.accept(ModBlocks.LIME_LEAVES);
+
+                        output.accept(ModBlocks.PINK_SAPLING);
+                        output.accept(ModBlocks.PINK_LEAVES);
+
+                        output.accept(ModBlocks.BROWN_SAPLING);
+                        output.accept(ModBlocks.BROWN_LEAVES);
+
+                        output.accept(ModBlocks.BLACK_SAPLING);
+                        output.accept(ModBlocks.BLACK_LEAVES);
+
+                        output.accept(ModBlocks.WHITE_SAPLING);
+                        output.accept(ModBlocks.WHITE_LEAVES);
+
+                        output.accept(ModBlocks.GRAY_SAPLING);
+                        output.accept(ModBlocks.GRAY_LEAVES);
+
+                        output.accept(ModBlocks.LIGHT_GRAY_SAPLING);
+                        output.accept(ModBlocks.LIGHT_GRAY_LEAVES);
+
+                        output.accept(ModBlocks.LIGHT_BLUE_SAPLING);
+                        output.accept(ModBlocks.LIGHT_BLUE_LEAVES);
+
+                        output.accept(ModBlocks.MAGENTA_SAPLING);
+                        output.accept(ModBlocks.MAGENTA_LEAVES);
+
+                    }).build());
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);

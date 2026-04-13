@@ -6,6 +6,7 @@ import net.fungoussoup.tintedgrove.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
+import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -85,6 +86,28 @@ public class ModItemModelProvider extends ItemModelProvider {
         fenceItem(ModBlocks.MAGENTA_WOOD_FENCE, ModBlocks.MAGENTA_PLANK);
         basicItem(ModBlocks.MAGENTA_WOOD_DOOR.asItem());
 
+        saplingItem(ModBlocks.RED_SAPLING);
+        saplingItem(ModBlocks.BLUE_SAPLING);
+        saplingItem(ModBlocks.GREEN_SAPLING);
+        saplingItem(ModBlocks.YELLOW_SAPLING);
+        saplingItem(ModBlocks.PURPLE_SAPLING);
+        saplingItem(ModBlocks.CYAN_SAPLING);
+        saplingItem(ModBlocks.ORANGE_SAPLING);
+        saplingItem(ModBlocks.LIME_SAPLING);
+        saplingItem(ModBlocks.PINK_SAPLING);
+        saplingItem(ModBlocks.BROWN_SAPLING);
+        saplingItem(ModBlocks.BLACK_SAPLING);
+        saplingItem(ModBlocks.WHITE_SAPLING);
+        saplingItem(ModBlocks.GRAY_SAPLING);
+        saplingItem(ModBlocks.LIGHT_GRAY_SAPLING);
+        saplingItem(ModBlocks.LIGHT_BLUE_SAPLING);
+        saplingItem(ModBlocks.MAGENTA_SAPLING);
+    }
+
+    private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(TintedGrove.MOD_ID,"block/" + item.getId().getPath()));
     }
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {

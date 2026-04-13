@@ -3,11 +3,16 @@ package net.fungoussoup.tintedgrove.block;
 import net.fungoussoup.tintedgrove.TintedGrove;
 import net.fungoussoup.tintedgrove.block.custom.ModFlammableRotatedPillarBlock;
 import net.fungoussoup.tintedgrove.item.ModItems;
+import net.fungoussoup.tintedgrove.worldgen.tree.ModTreeGrowers;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.WoodType;
 import net.neoforged.bus.api.IEventBus;
@@ -564,7 +569,329 @@ public class ModBlocks {
             () -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_DOOR).noOcclusion()));
     public static final DeferredBlock<TrapDoorBlock> MAGENTA_WOOD_TRAPDOOR = registerBlock("magenta_wood_trapdoor",
             () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion()));
-    
+
+
+    // RED - Tree
+
+    public static final DeferredBlock<Block> RED_LEAVES = registerBlock("red_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> RED_SAPLING = registerBlock("red_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.RED_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // BLUE - Tree
+
+    public static final DeferredBlock<Block> BLUE_LEAVES = registerBlock("blue_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> BLUE_SAPLING = registerBlock("blue_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.BLUE_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // GREEN - Tree
+
+    public static final DeferredBlock<Block> GREEN_LEAVES = registerBlock("green_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> GREEN_SAPLING = registerBlock("green_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.GREEN_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // YELLOW - Tree
+
+    public static final DeferredBlock<Block> YELLOW_LEAVES = registerBlock("yellow_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> YELLOW_SAPLING = registerBlock("yellow_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.YELLOW_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // PURPLE - Tree
+
+    public static final DeferredBlock<Block> PURPLE_LEAVES = registerBlock("purple_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> PURPLE_SAPLING = registerBlock("purple_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.PURPLE_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // CYAN - Tree
+
+    public static final DeferredBlock<Block> CYAN_LEAVES = registerBlock("cyan_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> CYAN_SAPLING = registerBlock("cyan_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.CYAN_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // ORANGE - Tree
+
+    public static final DeferredBlock<Block> ORANGE_LEAVES = registerBlock("orange_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> ORANGE_SAPLING = registerBlock("orange_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.ORANGE_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // LIME - Tree
+
+    public static final DeferredBlock<Block> LIME_LEAVES = registerBlock("lime_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> LIME_SAPLING = registerBlock("lime_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.LIME_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // PINK - Tree
+
+    public static final DeferredBlock<Block> PINK_LEAVES = registerBlock("pink_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> PINK_SAPLING = registerBlock("pink_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.PINK_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // BROWN - Tree
+
+    public static final DeferredBlock<Block> BROWN_LEAVES = registerBlock("brown_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> BROWN_SAPLING = registerBlock("brown_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.BROWN_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // BLACK - Tree
+
+    public static final DeferredBlock<Block> BLACK_LEAVES = registerBlock("black_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> BLACK_SAPLING = registerBlock("black_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.BLACK_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // WHITE - Tree
+
+    public static final DeferredBlock<Block> WHITE_LEAVES = registerBlock("white_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> WHITE_SAPLING = registerBlock("white_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.WHITE_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // GRAY - Tree
+
+    public static final DeferredBlock<Block> GRAY_LEAVES = registerBlock("gray_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> GRAY_SAPLING = registerBlock("gray_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.GRAY_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // LIGHT_GRAY - Tree
+
+    public static final DeferredBlock<Block> LIGHT_GRAY_LEAVES = registerBlock("light_gray_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> LIGHT_GRAY_SAPLING = registerBlock("light_gray_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.LIGHT_GRAY_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // LIGHT_LIGHT_BLUE - Tree
+
+    public static final DeferredBlock<Block> LIGHT_BLUE_LEAVES = registerBlock("light_blue_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> LIGHT_BLUE_SAPLING = registerBlock("light_blue_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.LIGHT_BLUE_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // MAGENTA - Tree
+
+    public static final DeferredBlock<Block> MAGENTA_LEAVES = registerBlock("magenta_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+    public static final DeferredBlock<Block> MAGENTA_SAPLING = registerBlock("magenta_sapling",
+            () -> new SaplingBlock(ModTreeGrowers.MAGENTA_WOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

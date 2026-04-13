@@ -2,7 +2,10 @@ package net.fungoussoup.tintedgrove.datagen;
 
 import net.fungoussoup.tintedgrove.TintedGrove;
 import net.fungoussoup.tintedgrove.block.ModBlocks;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
@@ -481,8 +484,81 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.MAGENTA_WOOD_FENCE_GATE);
         blockItem(ModBlocks.MAGENTA_WOOD_TRAPDOOR, "_bottom");
 
-        
+        // RED - Tree
+        leavesBlock(ModBlocks.RED_LEAVES);
+        saplingBlock(ModBlocks.RED_SAPLING);
 
+        // BLUE - Tree
+        leavesBlock(ModBlocks.BLUE_LEAVES);
+        saplingBlock(ModBlocks.BLUE_SAPLING);
+
+        // GREEN - Tree
+        leavesBlock(ModBlocks.GREEN_LEAVES);
+        saplingBlock(ModBlocks.GREEN_SAPLING);
+
+        // YELLOW - Tree
+        leavesBlock(ModBlocks.YELLOW_LEAVES);
+        saplingBlock(ModBlocks.YELLOW_SAPLING);
+
+        // PURPLE - Tree
+        leavesBlock(ModBlocks.PURPLE_LEAVES);
+        saplingBlock(ModBlocks.PURPLE_SAPLING);
+
+        // CYAN - Tree
+        leavesBlock(ModBlocks.CYAN_LEAVES);
+        saplingBlock(ModBlocks.CYAN_SAPLING);
+
+        // ORANGE - Tree
+        leavesBlock(ModBlocks.ORANGE_LEAVES);
+        saplingBlock(ModBlocks.ORANGE_SAPLING);
+
+        // LIME - Tree
+        leavesBlock(ModBlocks.LIME_LEAVES);
+        saplingBlock(ModBlocks.LIME_SAPLING);
+
+        // PINK - Tree
+        leavesBlock(ModBlocks.PINK_LEAVES);
+        saplingBlock(ModBlocks.PINK_SAPLING);
+
+        // BROWN - Tree
+        leavesBlock(ModBlocks.BROWN_LEAVES);
+        saplingBlock(ModBlocks.BROWN_SAPLING);
+
+        // BLACK - Tree
+        leavesBlock(ModBlocks.BLACK_LEAVES);
+        saplingBlock(ModBlocks.BLACK_SAPLING);
+
+        // WHITE - Tree
+        leavesBlock(ModBlocks.WHITE_LEAVES);
+        saplingBlock(ModBlocks.WHITE_SAPLING);
+
+        // GRAY - Tree
+        leavesBlock(ModBlocks.GRAY_LEAVES);
+        saplingBlock(ModBlocks.GRAY_SAPLING);
+
+        // LIGHT_GRAY - Tree
+        leavesBlock(ModBlocks.LIGHT_GRAY_LEAVES);
+        saplingBlock(ModBlocks.LIGHT_GRAY_SAPLING);
+
+        // LIGHT_BLUE - Tree
+        leavesBlock(ModBlocks.LIGHT_BLUE_LEAVES);
+        saplingBlock(ModBlocks.LIGHT_BLUE_SAPLING);
+
+        // MAGENTA - Tree
+        leavesBlock(ModBlocks.MAGENTA_LEAVES);
+        saplingBlock(ModBlocks.MAGENTA_SAPLING);
+
+    }
+
+    private void saplingBlock(DeferredBlock<Block> blockRegistryObject) {
+        simpleBlock(blockRegistryObject.get(),
+                models().cross(BuiltInRegistries.BLOCK.getKey(blockRegistryObject.get()).getPath(), blockTexture(blockRegistryObject.get())).renderType("cutout"));
+    }
+
+    private void leavesBlock(DeferredBlock<Block> blockRegistryObject) {
+        simpleBlockWithItem(blockRegistryObject.get(),
+                models().singleTexture(BuiltInRegistries.BLOCK.getKey(blockRegistryObject.get()).getPath(), ResourceLocation.parse("minecraft:block/leaves"),
+                        "all", blockTexture(blockRegistryObject.get())).renderType("cutout"));
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

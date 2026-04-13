@@ -5,6 +5,7 @@ import net.fungoussoup.tintedgrove.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -283,6 +284,75 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.LIGHT_GRAY_WOOD_FENCE_GATE.get())
                 .add(ModBlocks.LIGHT_BLUE_WOOD_FENCE_GATE.get())
                 .add(ModBlocks.MAGENTA_WOOD_FENCE_GATE.get())
+
+                ;
+        
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.RED_LOG.get())
+                .add(ModBlocks.RED_WOOD.get())
+                .add(ModBlocks.BLUE_LOG.get())
+                .add(ModBlocks.BLUE_WOOD.get())
+                .add(ModBlocks.GREEN_LOG.get())
+                .add(ModBlocks.GREEN_WOOD.get())
+                .add(ModBlocks.YELLOW_LOG.get())
+                .add(ModBlocks.YELLOW_WOOD.get())
+                .add(ModBlocks.PURPLE_LOG.get())
+                .add(ModBlocks.PURPLE_WOOD.get())
+                .add(ModBlocks.CYAN_LOG.get())
+                .add(ModBlocks.CYAN_WOOD.get())
+                .add(ModBlocks.ORANGE_LOG.get())
+                .add(ModBlocks.ORANGE_WOOD.get())
+                .add(ModBlocks.LIME_LOG.get())
+                .add(ModBlocks.LIME_WOOD.get())
+                .add(ModBlocks.PINK_LOG.get())
+                .add(ModBlocks.PINK_WOOD.get())
+                .add(ModBlocks.BROWN_LOG.get())
+                .add(ModBlocks.BROWN_WOOD.get())
+                .add(ModBlocks.BLACK_LOG.get())
+                .add(ModBlocks.BLACK_WOOD.get())
+                .add(ModBlocks.WHITE_LOG.get())
+                .add(ModBlocks.WHITE_WOOD.get())
+                .add(ModBlocks.GRAY_LOG.get())
+                .add(ModBlocks.GRAY_WOOD.get())
+                .add(ModBlocks.LIGHT_GRAY_LOG.get())
+                .add(ModBlocks.LIGHT_GRAY_WOOD.get())
+                .add(ModBlocks.LIGHT_BLUE_LOG.get())
+                .add(ModBlocks.LIGHT_BLUE_WOOD.get())
+                .add(ModBlocks.MAGENTA_LOG.get())
+                .add(ModBlocks.MAGENTA_WOOD.get())
+
+                .add(ModBlocks.STRIPPED_RED_LOG.get())
+                .add(ModBlocks.STRIPPED_RED_WOOD.get())
+                .add(ModBlocks.STRIPPED_BLUE_LOG.get())
+                .add(ModBlocks.STRIPPED_BLUE_WOOD.get())
+                .add(ModBlocks.STRIPPED_GREEN_LOG.get())
+                .add(ModBlocks.STRIPPED_GREEN_WOOD.get())
+                .add(ModBlocks.STRIPPED_YELLOW_LOG.get())
+                .add(ModBlocks.STRIPPED_YELLOW_WOOD.get())
+                .add(ModBlocks.STRIPPED_PURPLE_LOG.get())
+                .add(ModBlocks.STRIPPED_PURPLE_WOOD.get())
+                .add(ModBlocks.STRIPPED_CYAN_LOG.get())
+                .add(ModBlocks.STRIPPED_CYAN_WOOD.get())
+                .add(ModBlocks.STRIPPED_ORANGE_LOG.get())
+                .add(ModBlocks.STRIPPED_ORANGE_WOOD.get())
+                .add(ModBlocks.STRIPPED_LIME_LOG.get())
+                .add(ModBlocks.STRIPPED_LIME_WOOD.get())
+                .add(ModBlocks.STRIPPED_PINK_LOG.get())
+                .add(ModBlocks.STRIPPED_PINK_WOOD.get())
+                .add(ModBlocks.STRIPPED_BROWN_LOG.get())
+                .add(ModBlocks.STRIPPED_BROWN_WOOD.get())
+                .add(ModBlocks.STRIPPED_BLACK_LOG.get())
+                .add(ModBlocks.STRIPPED_BLACK_WOOD.get())
+                .add(ModBlocks.STRIPPED_WHITE_LOG.get())
+                .add(ModBlocks.STRIPPED_WHITE_WOOD.get())
+                .add(ModBlocks.STRIPPED_GRAY_LOG.get())
+                .add(ModBlocks.STRIPPED_GRAY_WOOD.get())
+                .add(ModBlocks.STRIPPED_LIGHT_GRAY_LOG.get())
+                .add(ModBlocks.STRIPPED_LIGHT_GRAY_WOOD.get())
+                .add(ModBlocks.STRIPPED_LIGHT_BLUE_LOG.get())
+                .add(ModBlocks.STRIPPED_LIGHT_BLUE_WOOD.get())
+                .add(ModBlocks.STRIPPED_MAGENTA_LOG.get())
+                .add(ModBlocks.STRIPPED_MAGENTA_WOOD.get())
 
                 ;
     }
