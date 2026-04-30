@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "pale_magenta_wood",
+  "key": {
+    "#": {
+      "item": "tintedgrove:pale_magenta_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "tintedgrove:pale_magenta_wood_trapdoor"
+  }
+}

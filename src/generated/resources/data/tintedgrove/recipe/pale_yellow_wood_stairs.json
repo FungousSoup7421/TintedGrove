@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pale_yellow_wood",
+  "key": {
+    "#": {
+      "item": "tintedgrove:pale_yellow_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "tintedgrove:pale_yellow_wood_stairs"
+  }
+}

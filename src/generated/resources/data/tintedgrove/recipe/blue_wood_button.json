@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "blue_wood",
+  "ingredients": [
+    {
+      "item": "tintedgrove:blue_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tintedgrove:blue_wood_button"
+  }
+}

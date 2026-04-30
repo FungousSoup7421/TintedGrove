@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "lime_wood",
+  "key": {
+    "#": {
+      "item": "tintedgrove:lime_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "tintedgrove:lime_wood_stairs"
+  }
+}

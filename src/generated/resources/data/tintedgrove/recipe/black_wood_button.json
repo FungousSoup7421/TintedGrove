@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "black_wood",
+  "ingredients": [
+    {
+      "item": "tintedgrove:black_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tintedgrove:black_wood_button"
+  }
+}

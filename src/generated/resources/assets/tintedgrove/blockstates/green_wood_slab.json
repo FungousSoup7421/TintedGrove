@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tintedgrove:block/green_wood_slab"
+    },
+    "type=double": {
+      "model": "tintedgrove:block/green_planks"
+    },
+    "type=top": {
+      "model": "tintedgrove:block/green_wood_slab_top"
+    }
+  }
+}

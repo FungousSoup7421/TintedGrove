@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gray_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tintedgrove:gray_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tintedgrove:gray_wood_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gray_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tintedgrove:gray_wood_fence"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "gray_wood",
+  "key": {
+    "#": {
+      "item": "tintedgrove:gray_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "tintedgrove:gray_wood_stairs"
+  }
+}

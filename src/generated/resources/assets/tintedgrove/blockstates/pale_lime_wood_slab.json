@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tintedgrove:block/pale_lime_wood_slab"
+    },
+    "type=double": {
+      "model": "tintedgrove:block/pale_lime_planks"
+    },
+    "type=top": {
+      "model": "tintedgrove:block/pale_lime_wood_slab_top"
+    }
+  }
+}

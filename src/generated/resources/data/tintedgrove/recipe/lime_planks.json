@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tintedgrove:lime_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "tintedgrove:lime_planks"
+  }
+}

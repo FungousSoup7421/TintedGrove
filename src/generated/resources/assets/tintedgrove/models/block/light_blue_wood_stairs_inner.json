@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tintedgrove:block/light_blue_planks",
+    "side": "tintedgrove:block/light_blue_planks",
+    "top": "tintedgrove:block/light_blue_planks"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "tintedgrove:block/pale_blue_planks"
+  }
+}

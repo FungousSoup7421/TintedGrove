@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cyan_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tintedgrove:cyan_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tintedgrove:cyan_wood_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cyan_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tintedgrove:cyan_wood_fence"
+    ]
+  }
+}

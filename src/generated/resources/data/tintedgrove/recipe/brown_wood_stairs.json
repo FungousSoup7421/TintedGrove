@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "brown_wood",
+  "key": {
+    "#": {
+      "item": "tintedgrove:brown_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "tintedgrove:brown_wood_stairs"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pale_pink_wood",
+  "key": {
+    "#": {
+      "item": "tintedgrove:pale_pink_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "tintedgrove:pale_pink_wood_stairs"
+  }
+}

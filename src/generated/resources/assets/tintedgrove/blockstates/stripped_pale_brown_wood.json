@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tintedgrove:block/stripped_pale_brown_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tintedgrove:block/stripped_pale_brown_wood"
+    },
+    "axis=z": {
+      "model": "tintedgrove:block/stripped_pale_brown_wood_horizontal",
+      "x": 90
+    }
+  }
+}

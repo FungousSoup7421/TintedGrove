@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tintedgrove:stripped_pale_blue_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "tintedgrove:pale_blue_planks"
+  }
+}

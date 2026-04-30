@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "tintedgrove:block/pale_purple_planks"
+  }
+}

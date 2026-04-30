@@ -1,0 +1,1096 @@
+{
+  "values": {
+    "tintedgrove:black_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:black_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:black_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:black_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:black_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:black_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:black_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:black_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:black_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:blue_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:blue_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:blue_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:blue_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:blue_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:blue_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:blue_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:blue_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:blue_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:brown_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:brown_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:brown_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:brown_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:brown_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:brown_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:brown_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:brown_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:brown_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:cyan_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:cyan_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:cyan_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:cyan_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:cyan_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:cyan_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:cyan_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:cyan_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:cyan_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:gray_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:gray_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:gray_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:gray_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:gray_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:gray_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:gray_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:gray_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:gray_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:green_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:green_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:green_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:green_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:green_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:green_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:green_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:green_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:green_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_blue_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_blue_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_blue_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_blue_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_blue_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_blue_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_blue_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:light_blue_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_blue_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_gray_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_gray_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_gray_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_gray_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_gray_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_gray_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_gray_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:light_gray_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:light_gray_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:lime_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:lime_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:lime_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:lime_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:lime_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:lime_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:lime_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:lime_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:lime_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:magenta_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:magenta_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:magenta_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:magenta_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:magenta_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:magenta_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:magenta_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:magenta_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:magenta_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:orange_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:orange_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:orange_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:orange_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:orange_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:orange_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:orange_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:orange_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:orange_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_blue_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_blue_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_blue_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_blue_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_blue_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_blue_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_blue_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:pale_blue_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_blue_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_brown_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_brown_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_brown_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_brown_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_brown_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_brown_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_brown_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:pale_brown_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_brown_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_cyan_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_cyan_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_cyan_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_cyan_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_cyan_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_cyan_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_cyan_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:pale_cyan_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_cyan_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_green_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_green_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_green_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_green_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_green_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_green_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_green_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:pale_green_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_green_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_light_blue_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_light_blue_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_light_blue_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_light_blue_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_light_blue_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_light_blue_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_light_blue_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:pale_light_blue_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_light_blue_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_lime_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_lime_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_lime_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_lime_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_lime_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_lime_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_lime_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:pale_lime_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_lime_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_magenta_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_magenta_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_magenta_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_magenta_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_magenta_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_magenta_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_magenta_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:pale_magenta_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_magenta_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_orange_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_orange_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_orange_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_orange_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_orange_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_orange_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_orange_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:pale_orange_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_orange_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_pink_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_pink_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_pink_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_pink_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_pink_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_pink_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_pink_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:pale_pink_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_pink_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_purple_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_purple_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_purple_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_purple_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_purple_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_purple_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_purple_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:pale_purple_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_purple_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_red_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_red_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_red_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_red_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_red_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_red_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_red_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:pale_red_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_red_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_yellow_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_yellow_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_yellow_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_yellow_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_yellow_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_yellow_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_yellow_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:pale_yellow_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:pale_yellow_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:pink_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:pink_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:pink_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:pink_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:pink_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pink_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:pink_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:pink_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:pink_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:purple_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:purple_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:purple_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:purple_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:purple_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:purple_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:purple_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:purple_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:purple_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:red_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:red_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:red_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:red_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:red_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:red_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:red_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:red_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:red_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_black_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_black_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_blue_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_blue_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_brown_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_brown_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_cyan_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_cyan_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_gray_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_gray_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_green_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_green_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_light_blue_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_light_blue_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_light_gray_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_light_gray_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_lime_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_lime_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_magenta_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_magenta_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_orange_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_orange_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_blue_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_blue_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_brown_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_brown_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_cyan_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_cyan_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_green_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_green_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_light_blue_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_light_blue_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_lime_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_lime_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_magenta_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_magenta_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_orange_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_orange_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_pink_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_pink_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_purple_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_purple_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_red_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_red_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_yellow_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pale_yellow_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pink_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_pink_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_purple_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_purple_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_red_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_red_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_white_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_white_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_yellow_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:stripped_yellow_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:white_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:white_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:white_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:white_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:white_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:white_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:white_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:white_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:white_wood_trapdoor": {
+      "burn_time": 300
+    },
+    "tintedgrove:yellow_log": {
+      "burn_time": 300
+    },
+    "tintedgrove:yellow_planks": {
+      "burn_time": 300
+    },
+    "tintedgrove:yellow_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_wood": {
+      "burn_time": 300
+    },
+    "tintedgrove:yellow_wood_button": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_wood_fence": {
+      "burn_time": 300
+    },
+    "tintedgrove:yellow_wood_fence_gate": {
+      "burn_time": 300
+    },
+    "tintedgrove:yellow_wood_pressure_plate": {
+      "burn_time": 300
+    },
+    "tintedgrove:yellow_wood_slab": {
+      "burn_time": 150
+    },
+    "tintedgrove:yellow_wood_stairs": {
+      "burn_time": 300
+    },
+    "tintedgrove:yellow_wood_trapdoor": {
+      "burn_time": 300
+    }
+  }
+}

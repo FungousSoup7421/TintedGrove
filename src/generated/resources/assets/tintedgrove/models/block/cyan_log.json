@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tintedgrove:block/cyan_log_top",
+    "side": "tintedgrove:block/cyan_log"
+  }
+}

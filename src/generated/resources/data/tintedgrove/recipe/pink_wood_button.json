@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "pink_wood",
+  "ingredients": [
+    {
+      "item": "tintedgrove:pink_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tintedgrove:pink_wood_button"
+  }
+}

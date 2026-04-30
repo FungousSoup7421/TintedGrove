@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magenta_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tintedgrove:magenta_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tintedgrove:charcoal_from_smelting_magenta_wood"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magenta_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tintedgrove:charcoal_from_smelting_magenta_wood"
+    ]
+  }
+}

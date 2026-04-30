@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "purple_wood",
+  "key": {
+    "#": {
+      "item": "tintedgrove:purple_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "tintedgrove:purple_wood_trapdoor"
+  }
+}

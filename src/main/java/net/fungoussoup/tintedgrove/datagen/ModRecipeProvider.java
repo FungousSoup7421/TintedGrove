@@ -139,6 +139,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             case GREEN -> Items.GREEN_DYE;
             case RED -> Items.RED_DYE;
             case BLACK -> Items.BLACK_DYE;
+
+            case PALE_ORANGE -> Items.ORANGE_CONCRETE;
+            case PALE_MAGENTA -> Items.MAGENTA_CONCRETE;
+            case PALE_LIGHT_BLUE -> Items.LIGHT_BLUE_CONCRETE;
+            case PALE_YELLOW -> Items.YELLOW_CONCRETE;
+            case PALE_LIME -> Items.LIME_CONCRETE;
+            case PALE_PINK -> Items.PINK_CONCRETE;
+            case PALE_CYAN -> Items.CYAN_CONCRETE;
+            case PALE_PURPLE -> Items.PURPLE_CONCRETE;
+            case PALE_BLUE -> Items.BLUE_CONCRETE;
+            case PALE_BROWN -> Items.BROWN_CONCRETE;
+            case PALE_GREEN -> Items.GREEN_CONCRETE;
+            case PALE_RED -> Items.RED_CONCRETE;
         };
     }
 

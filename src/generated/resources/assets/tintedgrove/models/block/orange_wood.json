@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tintedgrove:block/orange_log",
+    "side": "tintedgrove:block/orange_log"
+  }
+}

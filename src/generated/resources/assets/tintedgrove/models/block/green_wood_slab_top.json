@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tintedgrove:block/green_planks",
+    "side": "tintedgrove:block/green_planks",
+    "top": "tintedgrove:block/green_planks"
+  }
+}

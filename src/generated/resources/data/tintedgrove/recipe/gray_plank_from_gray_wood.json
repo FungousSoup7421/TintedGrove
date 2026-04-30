@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tintedgrove:gray_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "tintedgrove:gray_planks"
+  }
+}

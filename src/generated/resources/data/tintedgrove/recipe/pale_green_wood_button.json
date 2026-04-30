@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "pale_green_wood",
+  "ingredients": [
+    {
+      "item": "tintedgrove:pale_green_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tintedgrove:pale_green_wood_button"
+  }
+}

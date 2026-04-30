@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "yellow_wood",
+  "key": {
+    "#": {
+      "item": "tintedgrove:yellow_planks"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "tintedgrove:yellow_wood_door"
+  }
+}

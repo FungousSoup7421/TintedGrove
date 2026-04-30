@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tintedgrove:block/purple_planks",
+    "side": "tintedgrove:block/purple_planks",
+    "top": "tintedgrove:block/purple_planks"
+  }
+}

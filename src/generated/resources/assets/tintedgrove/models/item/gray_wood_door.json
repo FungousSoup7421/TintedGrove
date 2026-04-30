@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tintedgrove:item/gray_wood_door"
+  }
+}

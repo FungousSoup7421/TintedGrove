@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tintedgrove:red_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tintedgrove:red_wood_trapdoor"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_red_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tintedgrove:red_wood_trapdoor"
+    ]
+  }
+}

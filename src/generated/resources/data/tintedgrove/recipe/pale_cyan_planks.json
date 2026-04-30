@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tintedgrove:pale_cyan_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "tintedgrove:pale_cyan_planks"
+  }
+}

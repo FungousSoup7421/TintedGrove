@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tintedgrove:charcoal_from_smelting_yellow_log"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yellow_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tintedgrove:yellow_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_yellow_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tintedgrove:charcoal_from_smelting_yellow_log"
+    ]
+  }
+}

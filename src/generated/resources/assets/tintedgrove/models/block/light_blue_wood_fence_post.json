@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "tintedgrove:block/light_blue_planks"
+  }
+}

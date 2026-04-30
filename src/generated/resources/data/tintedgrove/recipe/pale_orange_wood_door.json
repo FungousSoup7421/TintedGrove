@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "pale_orange_wood",
+  "key": {
+    "#": {
+      "item": "tintedgrove:pale_orange_planks"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "tintedgrove:pale_orange_wood_door"
+  }
+}

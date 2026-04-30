@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "gray_wood",
+  "key": {
+    "#": {
+      "item": "tintedgrove:gray_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "tintedgrove:gray_wood_trapdoor"
+  }
+}
