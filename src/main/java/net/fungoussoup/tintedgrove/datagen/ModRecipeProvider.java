@@ -2,6 +2,7 @@ package net.fungoussoup.tintedgrove.datagen;
 
 import net.fungoussoup.tintedgrove.TintedGrove;
 import net.fungoussoup.tintedgrove.block.ModBlocks;
+import net.fungoussoup.tintedgrove.item.ModItems;
 import net.fungoussoup.tintedgrove.util.TintedColor;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -25,6 +26,71 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
         List<ItemLike> woodSmeltables = new ArrayList<>();
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.TINTER.get(), 1)
+                .requires(Items.WHITE_DYE)
+                .unlockedBy("has_white_dye", has(Items.WHITE_DYE)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PALE_ORANGE.get(), 2)
+                .requires(ModItems.TINTER)
+                .requires(Items.ORANGE_DYE)
+                .unlockedBy("has_tinter", has(ModItems.TINTER)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PALE_MAGENTA.get(), 2)
+                .requires(ModItems.TINTER)
+                .requires(Items.MAGENTA_DYE)
+                .unlockedBy("has_tinter", has(ModItems.TINTER)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PALE_LIGHT_BLUE.get(), 2)
+                .requires(ModItems.TINTER)
+                .requires(Items.LIGHT_BLUE_DYE)
+                .unlockedBy("has_tinter", has(ModItems.TINTER)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PALE_YELLOW.get(), 2)
+                .requires(ModItems.TINTER)
+                .requires(Items.YELLOW_DYE)
+                .unlockedBy("has_tinter", has(ModItems.TINTER)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PALE_LIME.get(), 2)
+                .requires(ModItems.TINTER)
+                .requires(Items.LIME_DYE)
+                .unlockedBy("has_tinter", has(ModItems.TINTER)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PALE_PINK.get(), 2)
+                .requires(ModItems.TINTER)
+                .requires(Items.PINK_DYE)
+                .unlockedBy("has_tinter", has(ModItems.TINTER)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PALE_CYAN.get(), 2)
+                .requires(ModItems.TINTER)
+                .requires(Items.CYAN_DYE)
+                .unlockedBy("has_tinter", has(ModItems.TINTER)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PALE_PURPLE.get(), 2)
+                .requires(ModItems.TINTER)
+                .requires(Items.PURPLE_DYE)
+                .unlockedBy("has_tinter", has(ModItems.TINTER)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PALE_BLUE.get(), 2)
+                .requires(ModItems.TINTER)
+                .requires(Items.BLUE_DYE)
+                .unlockedBy("has_tinter", has(ModItems.TINTER)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PALE_BROWN.get(), 2)
+                .requires(ModItems.TINTER)
+                .requires(Items.BROWN_DYE)
+                .unlockedBy("has_tinter", has(ModItems.TINTER)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PALE_GREEN.get(), 2)
+                .requires(ModItems.TINTER)
+                .requires(Items.GREEN_DYE)
+                .unlockedBy("has_tinter", has(ModItems.TINTER)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PALE_RED.get(), 2)
+                .requires(ModItems.TINTER)
+                .requires(Items.RED_DYE)
+                .unlockedBy("has_tinter", has(ModItems.TINTER)).save(recipeOutput);
+
         for (TintedColor color : TintedColor.values()) {
             woodSmeltables.add(ModBlocks.getLog(color));
             woodSmeltables.add(ModBlocks.getWood(color));
@@ -110,6 +176,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(recipeOutput);
     }
 
+
+
     private void buildSaplingRecipe(RecipeOutput recipeOutput, TintedColor color) {
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getSapling(color).get())
                 .pattern(" D ")
@@ -140,20 +208,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             case RED -> Items.RED_DYE;
             case BLACK -> Items.BLACK_DYE;
 
-            case PALE_ORANGE -> Items.ORANGE_CONCRETE;
-            case PALE_MAGENTA -> Items.MAGENTA_CONCRETE;
-            case PALE_LIGHT_BLUE -> Items.LIGHT_BLUE_CONCRETE;
-            case PALE_YELLOW -> Items.YELLOW_CONCRETE;
-            case PALE_LIME -> Items.LIME_CONCRETE;
-            case PALE_PINK -> Items.PINK_CONCRETE;
-            case PALE_CYAN -> Items.CYAN_CONCRETE;
-            case PALE_PURPLE -> Items.PURPLE_CONCRETE;
-            case PALE_BLUE -> Items.BLUE_CONCRETE;
-            case PALE_BROWN -> Items.BROWN_CONCRETE;
-            case PALE_GREEN -> Items.GREEN_CONCRETE;
-            case PALE_RED -> Items.RED_CONCRETE;
+            case PALE_ORANGE -> ModItems.PALE_ORANGE.get();
+            case PALE_MAGENTA -> ModItems.PALE_MAGENTA.get();
+            case PALE_LIGHT_BLUE -> ModItems.PALE_LIGHT_BLUE.get();
+            case PALE_YELLOW -> ModItems.PALE_YELLOW.get();
+            case PALE_LIME -> ModItems.PALE_LIME.get();
+            case PALE_PINK -> ModItems.PALE_PINK.get();
+            case PALE_CYAN -> ModItems.PALE_CYAN.get();
+            case PALE_PURPLE -> ModItems.PALE_PURPLE.get();
+            case PALE_BLUE -> ModItems.PALE_BLUE.get();
+            case PALE_BROWN -> ModItems.PALE_BROWN.get();
+            case PALE_GREEN -> ModItems.PALE_GREEN.get();
+            case PALE_RED -> ModItems.PALE_RED.get();
         };
     }
+
+
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
                                       float pExperience, int pCookingTime, String pGroup) {

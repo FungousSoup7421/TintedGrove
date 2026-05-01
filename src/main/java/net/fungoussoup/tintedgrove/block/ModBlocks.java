@@ -45,22 +45,8 @@ public class ModBlocks {
     public static final Map<TintedColor, DeferredBlock<LeavesBlock>> LEAVES = new EnumMap<>(TintedColor.class);
     public static final Map<TintedColor, DeferredBlock<SaplingBlock>> SAPLINGS = new EnumMap<>(TintedColor.class);
 
-//    public static final Map<Block, Block> STRIPPABLES = new HashMap<>();
-//
-//    public static Block getStripped(Block block) {
-//        return STRIPPABLES.get(block);
-//    }
-//
-//    private static void registerStrippables() {
-//        for (TintedColor color : TintedColor.values()) {
-//            STRIPPABLES.put(getLog(color).get(), getStrippedLog(color).get());
-//            STRIPPABLES.put(getWood(color).get(), getStrippedWood(color).get());
-//        }
-//    }
-
     static {
         registerAllWoodSets();
-//        registerStrippables();
     }
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

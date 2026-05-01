@@ -36,6 +36,21 @@ public class ModCreativeModeTabs {
                             output.accept(ModBlocks.getWoodFenceGate(color));
                             output.accept(ModBlocks.getWoodDoor(color));
                             output.accept(ModBlocks.getWoodTrapdoor(color));
+
+                            output.accept(ModItems.TINTER);
+
+                            output.accept(ModItems.PALE_BLUE);
+                            output.accept(ModItems.PALE_BROWN);
+                            output.accept(ModItems.PALE_CYAN);
+                            output.accept(ModItems.PALE_GREEN);
+                            output.accept(ModItems.PALE_LIME);
+                            output.accept(ModItems.PALE_LIGHT_BLUE);
+                            output.accept(ModItems.PALE_MAGENTA);
+                            output.accept(ModItems.PALE_ORANGE);
+                            output.accept(ModItems.PALE_PINK);
+                            output.accept(ModItems.PALE_PURPLE);
+                            output.accept(ModItems.PALE_RED);
+                            output.accept(ModItems.PALE_YELLOW);
                         }
                     }).build());
 

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tintedgrove:pale_pink"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tinter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tintedgrove:tinter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tinter"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tintedgrove:pale_pink"
+    ]
+  }
+}

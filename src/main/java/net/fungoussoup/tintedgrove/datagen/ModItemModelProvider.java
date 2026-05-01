@@ -19,7 +19,20 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        // basicItem(ModItems.BISMUTH.get());
+        basicItem(ModItems.TINTER.get());
+
+        basicItem(ModItems.PALE_BLUE.get());
+        basicItem(ModItems.PALE_BROWN.get());
+        basicItem(ModItems.PALE_CYAN.get());
+        basicItem(ModItems.PALE_GREEN.get());
+        basicItem(ModItems.PALE_LIME.get());
+        basicItem(ModItems.PALE_LIGHT_BLUE.get());
+        basicItem(ModItems.PALE_MAGENTA.get());
+        basicItem(ModItems.PALE_PINK.get());
+        basicItem(ModItems.PALE_PURPLE.get());
+        basicItem(ModItems.PALE_ORANGE.get());
+        basicItem(ModItems.PALE_RED.get());
+        basicItem(ModItems.PALE_YELLOW.get());
 
         for (TintedColor color : TintedColor.values()) {
             buttonItem(ModBlocks.getWoodButton(color), ModBlocks.getPlanks(color));

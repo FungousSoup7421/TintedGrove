@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:light_blue_concrete"
+            "items": "tintedgrove:pale_light_blue"
           }
         ]
       },
