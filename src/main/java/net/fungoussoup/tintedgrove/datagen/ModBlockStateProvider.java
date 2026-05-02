@@ -3,6 +3,7 @@ package net.fungoussoup.tintedgrove.datagen;
 import net.fungoussoup.tintedgrove.TintedGrove;
 import net.fungoussoup.tintedgrove.block.ModBlocks;
 import net.fungoussoup.tintedgrove.util.TintedColor;
+import net.fungoussoup.tintedgrove.util.TintedFlowerType;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -25,6 +26,30 @@ public class ModBlockStateProvider extends BlockStateProvider {
         for (TintedColor color : TintedColor.values()) {
             registerWoodSet(color);
             registerTreeSet(color);
+        }
+
+        for (TintedFlowerType type : TintedFlowerType.values()) {
+            for (TintedColor color : TintedColor.values()) {
+
+                Block flower = ModBlocks.FLOWERS.get(type).get(color).get();
+                Block potted = ModBlocks.POTTED_FLOWERS.get(type).get(color).get();
+
+                // Normal flower (cross model)
+                simpleBlock(flower,
+                        models().cross(
+                                BuiltInRegistries.BLOCK.getKey(flower).getPath(),
+                                blockTexture(flower)
+                        ).renderType("cutout"));
+
+                // Potted flower
+                simpleBlock(potted,
+                        models().singleTexture(
+                                BuiltInRegistries.BLOCK.getKey(potted).getPath(),
+                                ResourceLocation.parse("minecraft:block/flower_pot_cross"),
+                                "plant",
+                                blockTexture(flower)
+                        ).renderType("cutout"));
+            }
         }
     }
 

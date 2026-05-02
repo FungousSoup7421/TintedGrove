@@ -4,6 +4,7 @@ import net.fungoussoup.tintedgrove.TintedGrove;
 import net.fungoussoup.tintedgrove.block.ModBlocks;
 import net.fungoussoup.tintedgrove.item.ModItems;
 import net.fungoussoup.tintedgrove.util.TintedColor;
+import net.fungoussoup.tintedgrove.util.TintedFlowerType;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
@@ -34,6 +35,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.PALE_RED.get());
         basicItem(ModItems.PALE_YELLOW.get());
 
+        for (TintedFlowerType type : TintedFlowerType.values()) {
+            for (TintedColor color : TintedColor.values()) {
+                flowerItem(ModBlocks.FLOWERS.get(type).get(color));
+            }
+        }
+
         for (TintedColor color : TintedColor.values()) {
             buttonItem(ModBlocks.getWoodButton(color), ModBlocks.getPlanks(color));
             fenceItem(ModBlocks.getWoodFence(color), ModBlocks.getPlanks(color));
@@ -43,6 +50,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         }
     }
 
+    public void flowerItem(DeferredBlock<Block> block) {
+        this.withExistingParent(block.getId().getPath(), mcLoc("item/generated"))
+                .texture("layer0", ResourceLocation.fromNamespaceAndPath(TintedGrove.MOD_ID,
+                                "block/" + block.getId().getPath()));
+    }
     private ItemModelBuilder saplingItem(DeferredBlock<?> item) {
         return withExistingParent(item.getId().getPath(), "item/generated")
                 .texture("layer0",

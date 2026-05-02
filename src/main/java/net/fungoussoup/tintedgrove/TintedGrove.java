@@ -3,7 +3,11 @@ package net.fungoussoup.tintedgrove;
 import net.fungoussoup.tintedgrove.block.ModBlocks;
 import net.fungoussoup.tintedgrove.item.ModCreativeModeTabs;
 import net.fungoussoup.tintedgrove.item.ModItems;
+import net.fungoussoup.tintedgrove.util.TintedColor;
+import net.fungoussoup.tintedgrove.util.TintedFlowerType;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -51,7 +55,16 @@ public class TintedGrove {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
-
+        event.enqueueWork(() -> {
+            for (TintedFlowerType type : TintedFlowerType.values()) {
+                for (TintedColor color : TintedColor.values()) {
+                    ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(
+                            ModBlocks.FLOWERS.get(type).get(color).getId(),
+                            ModBlocks.FLOWERS.get(type).get(color)
+                    );
+                }
+            }
+        });
     }
 
     // Add the example block item to the building blocks tab

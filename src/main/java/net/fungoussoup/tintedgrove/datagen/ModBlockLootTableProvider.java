@@ -2,6 +2,7 @@ package net.fungoussoup.tintedgrove.datagen;
 
 import net.fungoussoup.tintedgrove.block.ModBlocks;
 import net.fungoussoup.tintedgrove.util.TintedColor;
+import net.fungoussoup.tintedgrove.util.TintedFlowerType;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;
@@ -20,6 +21,16 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         for (TintedColor color : TintedColor.values()) {
             generateWoodSetLoot(color);
             generateTreeLoot(color);
+        }
+
+        for (TintedFlowerType type : TintedFlowerType.values()) {
+            for (TintedColor color : TintedColor.values()) {
+                Block flower = ModBlocks.FLOWERS.get(type).get(color).get();
+                Block potted = ModBlocks.POTTED_FLOWERS.get(type).get(color).get();
+
+                this.dropSelf(flower);
+                this.add(potted, createPotFlowerItemTable(ModBlocks.FLOWERS.get(type).get(color)));
+            }
         }
     }
 

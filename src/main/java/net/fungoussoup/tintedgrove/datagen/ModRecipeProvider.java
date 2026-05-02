@@ -4,6 +4,7 @@ import net.fungoussoup.tintedgrove.TintedGrove;
 import net.fungoussoup.tintedgrove.block.ModBlocks;
 import net.fungoussoup.tintedgrove.item.ModItems;
 import net.fungoussoup.tintedgrove.util.TintedColor;
+import net.fungoussoup.tintedgrove.util.TintedFlowerType;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -103,6 +104,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         for (TintedColor color : TintedColor.values()) {
             buildWoodSetRecipes(recipeOutput, color);
             buildSaplingRecipe(recipeOutput, color);
+            buildFlowerRecipes(recipeOutput, color);
         }
     }
 
@@ -189,6 +191,23 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(recipeOutput);
     }
 
+    private void buildFlowerRecipes(RecipeOutput recipeOutput, TintedColor color) {
+        for (TintedFlowerType type : TintedFlowerType.values()) {
+
+            ShapedRecipeBuilder.shaped(
+                            RecipeCategory.DECORATIONS,
+                            ModBlocks.FLOWERS.get(type).get(color).get()
+                    )
+                    .pattern(" D ")
+                    .pattern("DFD")
+                    .pattern(" D ")
+                    .define('D', getDyeForColor(color))
+                    .define('F', getBaseFlower(type))
+                    .unlockedBy("has_" + color.getId() + "_dye", has(getDyeForColor(color)))
+                    .save(recipeOutput);
+        }
+    }
+
     private Item getDyeForColor(TintedColor color) {
         return switch (color) {
             case WHITE -> Items.WHITE_DYE;
@@ -220,6 +239,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             case PALE_BROWN -> ModItems.PALE_BROWN.get();
             case PALE_GREEN -> ModItems.PALE_GREEN.get();
             case PALE_RED -> ModItems.PALE_RED.get();
+        };
+    }
+
+    private ItemLike getBaseFlower(TintedFlowerType type) {
+        return switch (type) {
+            case DANDELION -> Blocks.DANDELION;
         };
     }
 

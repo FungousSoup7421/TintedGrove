@@ -3,6 +3,7 @@ package net.fungoussoup.tintedgrove.item;
 import net.fungoussoup.tintedgrove.TintedGrove;
 import net.fungoussoup.tintedgrove.block.ModBlocks;
 import net.fungoussoup.tintedgrove.util.TintedColor;
+import net.fungoussoup.tintedgrove.util.TintedFlowerType;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -36,22 +37,21 @@ public class ModCreativeModeTabs {
                             output.accept(ModBlocks.getWoodFenceGate(color));
                             output.accept(ModBlocks.getWoodDoor(color));
                             output.accept(ModBlocks.getWoodTrapdoor(color));
-
-                            output.accept(ModItems.TINTER);
-
-                            output.accept(ModItems.PALE_BLUE);
-                            output.accept(ModItems.PALE_BROWN);
-                            output.accept(ModItems.PALE_CYAN);
-                            output.accept(ModItems.PALE_GREEN);
-                            output.accept(ModItems.PALE_LIME);
-                            output.accept(ModItems.PALE_LIGHT_BLUE);
-                            output.accept(ModItems.PALE_MAGENTA);
-                            output.accept(ModItems.PALE_ORANGE);
-                            output.accept(ModItems.PALE_PINK);
-                            output.accept(ModItems.PALE_PURPLE);
-                            output.accept(ModItems.PALE_RED);
-                            output.accept(ModItems.PALE_YELLOW);
                         }
+                        output.accept(ModItems.TINTER);
+
+                        output.accept(ModItems.PALE_BLUE);
+                        output.accept(ModItems.PALE_BROWN);
+                        output.accept(ModItems.PALE_CYAN);
+                        output.accept(ModItems.PALE_GREEN);
+                        output.accept(ModItems.PALE_LIME);
+                        output.accept(ModItems.PALE_LIGHT_BLUE);
+                        output.accept(ModItems.PALE_MAGENTA);
+                        output.accept(ModItems.PALE_ORANGE);
+                        output.accept(ModItems.PALE_PINK);
+                        output.accept(ModItems.PALE_PURPLE);
+                        output.accept(ModItems.PALE_RED);
+                        output.accept(ModItems.PALE_YELLOW);
                     }).build());
 
     public static final Supplier<CreativeModeTab> TINTED_GROVE_TREES_TAB = CREATIVE_MODE_TAB.register("tinted_grove_trees_tab",
@@ -63,6 +63,19 @@ public class ModCreativeModeTabs {
                         for (TintedColor color : TintedColor.values()) {
                             output.accept(ModBlocks.getSapling(color));
                             output.accept(ModBlocks.getLeaves(color));
+                        }
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> TINTED_GROVE_FLOWERS_TAB = CREATIVE_MODE_TAB.register("tinted_grove_flowers_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.FLOWERS.get(TintedFlowerType.DANDELION).get(TintedColor.CYAN)))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(TintedGrove.MOD_ID, "tinted_grove_trees_tab"))
+                    .title(Component.translatable("creativetab.tintedgrove.tinted_grove_flowers"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        for (TintedFlowerType type : TintedFlowerType.values()) {
+                            for (TintedColor color : TintedColor.values()) {
+                                output.accept(ModBlocks.FLOWERS.get(type).get(color));
+                            }
                         }
                     }).build());
 

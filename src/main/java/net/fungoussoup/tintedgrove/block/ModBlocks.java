@@ -4,9 +4,12 @@ import net.fungoussoup.tintedgrove.TintedGrove;
 import net.fungoussoup.tintedgrove.block.custom.ModFlammableRotatedPillarBlock;
 import net.fungoussoup.tintedgrove.item.ModItems;
 import net.fungoussoup.tintedgrove.util.TintedColor;
+import net.fungoussoup.tintedgrove.util.TintedFlowerType;
 import net.fungoussoup.tintedgrove.worldgen.tree.ModTreeGrowers;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.BlockGetter;
@@ -45,9 +48,18 @@ public class ModBlocks {
     public static final Map<TintedColor, DeferredBlock<LeavesBlock>> LEAVES = new EnumMap<>(TintedColor.class);
     public static final Map<TintedColor, DeferredBlock<SaplingBlock>> SAPLINGS = new EnumMap<>(TintedColor.class);
 
+    public static final Map<TintedFlowerType, Map<TintedColor, DeferredBlock<Block>>> FLOWERS = new EnumMap<>(TintedFlowerType.class);
+    public static final Map<TintedFlowerType, Map<TintedColor, DeferredBlock<Block>>> POTTED_FLOWERS = new EnumMap<>(TintedFlowerType.class);
+
     static {
         registerAllWoodSets();
+        registerAllFlowers();
     }
+
+//    public static final DeferredBlock<Block> BLUE_DANDELION = registerBlock("blue_dandelion",
+//            () -> new FlowerBlock(MobEffects.SATURATION, 8, BlockBehaviour.Properties.ofFullCopy(Blocks.DANDELION)));
+//    public static final DeferredBlock<Block> POTTED_BLUE_DANDELION = BLOCKS.register("potted_blue_dandelion",
+//            () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), BLUE_DANDELION, BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_DANDELION)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
@@ -196,6 +208,39 @@ public class ModBlocks {
     private static void registerAllWoodSets() {
         for (TintedColor color : TintedColor.values()) {
             registerWoodSet(color);
+        }
+    }
+
+    private static void registerAllFlowers() {
+        for (TintedFlowerType type : TintedFlowerType.values()) {
+            Map<TintedColor, DeferredBlock<Block>> flowerMap = new EnumMap<>(TintedColor.class);
+            Map<TintedColor, DeferredBlock<Block>> pottedMap = new EnumMap<>(TintedColor.class);
+
+            for (TintedColor color : TintedColor.values()) {
+                String name = color.blockName(type.getName());
+
+                DeferredBlock<Block> flower = registerBlock(name,
+                        () -> new FlowerBlock(
+                                MobEffects.SATURATION,
+                                8,
+                                BlockBehaviour.Properties.ofFullCopy(type.getBaseBlock())
+                        )
+                );
+
+                DeferredBlock<Block> potted = BLOCKS.register("potted_" + name,
+                        () -> new FlowerPotBlock(
+                                () -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                                flower,
+                                BlockBehaviour.Properties.ofFullCopy(type.getPottedBase())
+                        )
+                );
+
+                flowerMap.put(color, flower);
+                pottedMap.put(color, potted);
+            }
+
+            FLOWERS.put(type, flowerMap);
+            POTTED_FLOWERS.put(type, pottedMap);
         }
     }
 }
