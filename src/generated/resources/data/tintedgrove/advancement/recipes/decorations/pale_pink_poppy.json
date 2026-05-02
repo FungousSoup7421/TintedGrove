@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pale_pink_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tintedgrove:pale_pink"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tintedgrove:pale_pink_poppy"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pale_pink_dye"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tintedgrove:pale_pink_poppy"
+    ]
+  }
+}

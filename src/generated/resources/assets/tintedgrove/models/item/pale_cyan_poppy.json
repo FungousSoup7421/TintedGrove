@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tintedgrove:block/pale_cyan_poppy"
+  }
+}

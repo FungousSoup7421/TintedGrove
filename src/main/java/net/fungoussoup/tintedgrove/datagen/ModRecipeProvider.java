@@ -245,6 +245,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     private ItemLike getBaseFlower(TintedFlowerType type) {
         return switch (type) {
             case DANDELION -> Blocks.DANDELION;
+            case POPPY -> Blocks.POPPY;
         };
     }
 
