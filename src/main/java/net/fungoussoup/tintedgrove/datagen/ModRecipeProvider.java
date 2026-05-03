@@ -247,6 +247,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             case DANDELION -> Blocks.DANDELION;
             case POPPY -> Blocks.POPPY;
             case TULIP -> Blocks.WHITE_TULIP;
+            case ORCHID -> Blocks.BLUE_ORCHID;
+            case ALLIUM -> Blocks.ALLIUM;
+            case AZURE_BLUET -> Blocks.AZURE_BLUET;
+            case OXEYE_DAISY -> Blocks.OXEYE_DAISY;
+            case CORNFLOWER -> Blocks.CORNFLOWER;
+            case LILY_OF_THE_VALLEY -> Blocks.LILY_OF_THE_VALLEY;
         };
     }
 

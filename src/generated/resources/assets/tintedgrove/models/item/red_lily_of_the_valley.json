@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tintedgrove:block/red_lily_of_the_valley"
+  }
+}

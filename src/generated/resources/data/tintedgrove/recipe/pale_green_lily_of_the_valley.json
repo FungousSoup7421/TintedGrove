@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "tintedgrove:pale_green"
+    },
+    "F": {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  },
+  "pattern": [
+    " D ",
+    "DFD",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tintedgrove:pale_green_lily_of_the_valley"
+  }
+}

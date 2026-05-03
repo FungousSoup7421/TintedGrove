@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "tintedgrove:pale_magenta"
+    },
+    "F": {
+      "item": "minecraft:azure_bluet"
+    }
+  },
+  "pattern": [
+    " D ",
+    "DFD",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tintedgrove:pale_magenta_azure_bluet"
+  }
+}

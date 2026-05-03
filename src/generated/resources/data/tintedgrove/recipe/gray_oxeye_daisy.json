@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:gray_dye"
+    },
+    "F": {
+      "item": "minecraft:oxeye_daisy"
+    }
+  },
+  "pattern": [
+    " D ",
+    "DFD",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tintedgrove:gray_oxeye_daisy"
+  }
+}

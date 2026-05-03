@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:black_dye"
+    },
+    "F": {
+      "item": "minecraft:azure_bluet"
+    }
+  },
+  "pattern": [
+    " D ",
+    "DFD",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tintedgrove:black_azure_bluet"
+  }
+}
