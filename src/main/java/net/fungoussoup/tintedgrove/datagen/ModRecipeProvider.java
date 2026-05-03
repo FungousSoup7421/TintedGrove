@@ -246,6 +246,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         return switch (type) {
             case DANDELION -> Blocks.DANDELION;
             case POPPY -> Blocks.POPPY;
+            case TULIP -> Blocks.WHITE_TULIP;
         };
     }
 

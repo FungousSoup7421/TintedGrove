@@ -5,7 +5,8 @@ import net.minecraft.world.level.block.Blocks;
 
 public enum TintedFlowerType {
     DANDELION("dandelion", Blocks.DANDELION, Blocks.POTTED_DANDELION),
-    POPPY("poppy", Blocks.POPPY, Blocks.POTTED_POPPY);
+    POPPY("poppy", Blocks.POPPY, Blocks.POTTED_POPPY),
+    TULIP("tulip", Blocks.WHITE_TULIP, Blocks.POTTED_WHITE_TULIP);
 
     private final String name;
     private final Block baseBlock;

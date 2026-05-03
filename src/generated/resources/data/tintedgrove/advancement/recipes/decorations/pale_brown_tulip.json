@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pale_brown_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tintedgrove:pale_brown"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tintedgrove:pale_brown_tulip"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pale_brown_dye"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tintedgrove:pale_brown_tulip"
+    ]
+  }
+}
