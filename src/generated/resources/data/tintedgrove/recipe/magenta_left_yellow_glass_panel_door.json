@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:yellow_stained_glass"
+    },
+    "P": {
+      "item": "tintedgrove:magenta_planks"
+    }
+  },
+  "pattern": [
+    "GP",
+    "GP",
+    "GP"
+  ],
+  "result": {
+    "count": 3,
+    "id": "tintedgrove:magenta_left_yellow_glass_panel_door"
+  }
+}

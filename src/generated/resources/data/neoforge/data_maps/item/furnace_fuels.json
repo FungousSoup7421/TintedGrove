@@ -1,12 +1,162 @@
 {
   "values": {
+    "tintedgrove:black_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:black_log": {
       "burn_time": 300
+    },
+    "tintedgrove:black_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:black_planks": {
       "burn_time": 300
     },
+    "tintedgrove:black_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:black_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:black_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:black_wood": {
@@ -33,13 +183,166 @@
     "tintedgrove:black_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:black_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:blue_log": {
       "burn_time": 300
+    },
+    "tintedgrove:blue_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:blue_planks": {
       "burn_time": 300
     },
+    "tintedgrove:blue_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:blue_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:blue_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:blue_wood": {
@@ -66,13 +369,166 @@
     "tintedgrove:blue_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:blue_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:brown_log": {
       "burn_time": 300
+    },
+    "tintedgrove:brown_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:brown_planks": {
       "burn_time": 300
     },
+    "tintedgrove:brown_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:brown_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:brown_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:brown_wood": {
@@ -99,13 +555,166 @@
     "tintedgrove:brown_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:brown_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:cyan_log": {
       "burn_time": 300
+    },
+    "tintedgrove:cyan_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:cyan_planks": {
       "burn_time": 300
     },
+    "tintedgrove:cyan_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:cyan_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:cyan_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:cyan_wood": {
@@ -132,13 +741,166 @@
     "tintedgrove:cyan_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:cyan_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:gray_log": {
       "burn_time": 300
+    },
+    "tintedgrove:gray_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:gray_planks": {
       "burn_time": 300
     },
+    "tintedgrove:gray_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:gray_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:gray_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:gray_wood": {
@@ -165,13 +927,166 @@
     "tintedgrove:gray_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:gray_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:green_log": {
       "burn_time": 300
+    },
+    "tintedgrove:green_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:green_planks": {
       "burn_time": 300
     },
+    "tintedgrove:green_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:green_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:green_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:green_wood": {
@@ -198,13 +1113,166 @@
     "tintedgrove:green_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:green_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:light_blue_log": {
       "burn_time": 300
+    },
+    "tintedgrove:light_blue_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:light_blue_planks": {
       "burn_time": 300
     },
+    "tintedgrove:light_blue_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:light_blue_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_blue_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:light_blue_wood": {
@@ -231,13 +1299,166 @@
     "tintedgrove:light_blue_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:light_blue_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:light_gray_log": {
       "burn_time": 300
+    },
+    "tintedgrove:light_gray_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:light_gray_planks": {
       "burn_time": 300
     },
+    "tintedgrove:light_gray_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:light_gray_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:light_gray_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:light_gray_wood": {
@@ -264,13 +1485,166 @@
     "tintedgrove:light_gray_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:light_gray_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:lime_log": {
       "burn_time": 300
+    },
+    "tintedgrove:lime_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:lime_planks": {
       "burn_time": 300
     },
+    "tintedgrove:lime_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:lime_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:lime_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:lime_wood": {
@@ -297,13 +1671,166 @@
     "tintedgrove:lime_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:lime_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:magenta_log": {
       "burn_time": 300
+    },
+    "tintedgrove:magenta_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:magenta_planks": {
       "burn_time": 300
     },
+    "tintedgrove:magenta_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:magenta_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:magenta_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:magenta_wood": {
@@ -330,13 +1857,166 @@
     "tintedgrove:magenta_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:magenta_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:orange_log": {
       "burn_time": 300
+    },
+    "tintedgrove:orange_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:orange_planks": {
       "burn_time": 300
     },
+    "tintedgrove:orange_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:orange_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:orange_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:orange_wood": {
@@ -363,13 +2043,166 @@
     "tintedgrove:orange_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:orange_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_blue_log": {
       "burn_time": 300
+    },
+    "tintedgrove:pale_blue_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:pale_blue_planks": {
       "burn_time": 300
     },
+    "tintedgrove:pale_blue_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_blue_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_blue_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:pale_blue_wood": {
@@ -396,13 +2229,166 @@
     "tintedgrove:pale_blue_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:pale_blue_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_brown_log": {
       "burn_time": 300
+    },
+    "tintedgrove:pale_brown_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:pale_brown_planks": {
       "burn_time": 300
     },
+    "tintedgrove:pale_brown_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_brown_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_brown_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:pale_brown_wood": {
@@ -429,13 +2415,166 @@
     "tintedgrove:pale_brown_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:pale_brown_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_cyan_log": {
       "burn_time": 300
+    },
+    "tintedgrove:pale_cyan_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:pale_cyan_planks": {
       "burn_time": 300
     },
+    "tintedgrove:pale_cyan_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_cyan_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_cyan_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:pale_cyan_wood": {
@@ -462,13 +2601,166 @@
     "tintedgrove:pale_cyan_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:pale_cyan_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_green_log": {
       "burn_time": 300
+    },
+    "tintedgrove:pale_green_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:pale_green_planks": {
       "burn_time": 300
     },
+    "tintedgrove:pale_green_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_green_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_green_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:pale_green_wood": {
@@ -495,13 +2787,166 @@
     "tintedgrove:pale_green_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:pale_green_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_light_blue_log": {
       "burn_time": 300
+    },
+    "tintedgrove:pale_light_blue_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:pale_light_blue_planks": {
       "burn_time": 300
     },
+    "tintedgrove:pale_light_blue_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_light_blue_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_light_blue_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:pale_light_blue_wood": {
@@ -528,13 +2973,166 @@
     "tintedgrove:pale_light_blue_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:pale_light_blue_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_lime_log": {
       "burn_time": 300
+    },
+    "tintedgrove:pale_lime_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:pale_lime_planks": {
       "burn_time": 300
     },
+    "tintedgrove:pale_lime_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_lime_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_lime_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:pale_lime_wood": {
@@ -561,13 +3159,166 @@
     "tintedgrove:pale_lime_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:pale_lime_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_magenta_log": {
       "burn_time": 300
+    },
+    "tintedgrove:pale_magenta_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:pale_magenta_planks": {
       "burn_time": 300
     },
+    "tintedgrove:pale_magenta_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_magenta_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_magenta_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:pale_magenta_wood": {
@@ -594,13 +3345,166 @@
     "tintedgrove:pale_magenta_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:pale_magenta_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_orange_log": {
       "burn_time": 300
+    },
+    "tintedgrove:pale_orange_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:pale_orange_planks": {
       "burn_time": 300
     },
+    "tintedgrove:pale_orange_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_orange_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_orange_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:pale_orange_wood": {
@@ -627,13 +3531,166 @@
     "tintedgrove:pale_orange_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:pale_orange_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_pink_log": {
       "burn_time": 300
+    },
+    "tintedgrove:pale_pink_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:pale_pink_planks": {
       "burn_time": 300
     },
+    "tintedgrove:pale_pink_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_pink_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_pink_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:pale_pink_wood": {
@@ -660,13 +3717,166 @@
     "tintedgrove:pale_pink_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:pale_pink_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_purple_log": {
       "burn_time": 300
+    },
+    "tintedgrove:pale_purple_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:pale_purple_planks": {
       "burn_time": 300
     },
+    "tintedgrove:pale_purple_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_purple_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_purple_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:pale_purple_wood": {
@@ -693,13 +3903,166 @@
     "tintedgrove:pale_purple_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:pale_purple_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_red_log": {
       "burn_time": 300
+    },
+    "tintedgrove:pale_red_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:pale_red_planks": {
       "burn_time": 300
     },
+    "tintedgrove:pale_red_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_red_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_red_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:pale_red_wood": {
@@ -726,13 +4089,166 @@
     "tintedgrove:pale_red_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:pale_red_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_yellow_log": {
       "burn_time": 300
+    },
+    "tintedgrove:pale_yellow_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:pale_yellow_planks": {
       "burn_time": 300
     },
+    "tintedgrove:pale_yellow_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pale_yellow_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pale_yellow_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:pale_yellow_wood": {
@@ -759,13 +4275,166 @@
     "tintedgrove:pale_yellow_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:pale_yellow_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pink_log": {
       "burn_time": 300
+    },
+    "tintedgrove:pink_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:pink_planks": {
       "burn_time": 300
     },
+    "tintedgrove:pink_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:pink_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:pink_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:pink_wood": {
@@ -792,13 +4461,166 @@
     "tintedgrove:pink_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:pink_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:purple_log": {
       "burn_time": 300
+    },
+    "tintedgrove:purple_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:purple_planks": {
       "burn_time": 300
     },
+    "tintedgrove:purple_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:purple_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:purple_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:purple_wood": {
@@ -825,13 +4647,166 @@
     "tintedgrove:purple_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:purple_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:red_log": {
       "burn_time": 300
+    },
+    "tintedgrove:red_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:red_planks": {
       "burn_time": 300
     },
+    "tintedgrove:red_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:red_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:red_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:red_wood": {
@@ -857,6 +4832,9 @@
     },
     "tintedgrove:red_wood_trapdoor": {
       "burn_time": 300
+    },
+    "tintedgrove:red_yellow_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:stripped_black_log": {
       "burn_time": 300
@@ -1026,13 +5004,163 @@
     "tintedgrove:stripped_yellow_wood": {
       "burn_time": 300
     },
+    "tintedgrove:white_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:white_log": {
       "burn_time": 300
+    },
+    "tintedgrove:white_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:white_planks": {
       "burn_time": 300
     },
+    "tintedgrove:white_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:white_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:white_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:white_wood": {
@@ -1059,13 +5187,166 @@
     "tintedgrove:white_wood_trapdoor": {
       "burn_time": 300
     },
+    "tintedgrove:white_yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_black_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_brown_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_cyan_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_green_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_left_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_light_blue_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_light_gray_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_lime_glass_window_door": {
+      "burn_time": 100
+    },
     "tintedgrove:yellow_log": {
       "burn_time": 300
+    },
+    "tintedgrove:yellow_magenta_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_orange_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_pink_glass_window_door": {
+      "burn_time": 100
     },
     "tintedgrove:yellow_planks": {
       "burn_time": 300
     },
+    "tintedgrove:yellow_purple_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_red_glass_window_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_black_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_brown_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_cyan_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_green_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_light_blue_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_light_gray_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_lime_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_magenta_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_orange_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_pink_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_purple_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_red_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_white_glass_panel_door": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_right_yellow_glass_panel_door": {
+      "burn_time": 100
+    },
     "tintedgrove:yellow_sapling": {
+      "burn_time": 100
+    },
+    "tintedgrove:yellow_white_glass_window_door": {
       "burn_time": 100
     },
     "tintedgrove:yellow_wood": {
@@ -1091,6 +5372,9 @@
     },
     "tintedgrove:yellow_wood_trapdoor": {
       "burn_time": 300
+    },
+    "tintedgrove:yellow_yellow_glass_window_door": {
+      "burn_time": 100
     }
   }
 }

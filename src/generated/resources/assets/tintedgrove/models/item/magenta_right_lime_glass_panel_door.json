@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "layer0": "tintedgrove:item/magenta_right_lime_glass_panel_door"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "bottom": "tintedgrove:block/pale_yellow_orange_glass_door_bottom",
+    "top": "tintedgrove:block/pale_yellow_orange_glass_door_top"
+  }
+}

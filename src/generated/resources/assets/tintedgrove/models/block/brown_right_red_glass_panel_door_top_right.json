@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "bottom": "tintedgrove:block/brown_right_red_glass_panel_door_bottom",
+    "top": "tintedgrove:block/brown_right_red_glass_panel_door_top"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:pink_stained_glass"
+    },
+    "P": {
+      "item": "tintedgrove:orange_planks"
+    }
+  },
+  "pattern": [
+    "PP",
+    "GG",
+    "PP"
+  ],
+  "result": {
+    "count": 3,
+    "id": "tintedgrove:orange_pink_glass_door"
+  }
+}

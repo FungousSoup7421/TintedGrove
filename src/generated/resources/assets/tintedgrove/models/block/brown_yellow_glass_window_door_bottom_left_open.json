@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "bottom": "tintedgrove:block/brown_glass_window_door_bottom",
+    "top": "tintedgrove:block/brown_yellow_glass_window_door_top"
+  }
+}

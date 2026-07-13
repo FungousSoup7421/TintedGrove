@@ -105,6 +105,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             buildWoodSetRecipes(recipeOutput, color);
             buildSaplingRecipe(recipeOutput, color);
             buildFlowerRecipes(recipeOutput, color);
+            buildDoorVariantRecipes(recipeOutput, color);
         }
     }
 
@@ -178,6 +179,610 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(recipeOutput);
     }
 
+    private void buildDoorVariantRecipes(RecipeOutput recipeOutput, TintedColor color) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getWhiteGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.WHITE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getOrangeGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.ORANGE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getMagentaGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.MAGENTA_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLightBlueGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.LIGHT_BLUE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getYellowGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.YELLOW_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLimeGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.LIME_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getPinkGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.PINK_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getGrayGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.GRAY_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLightGrayGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.LIGHT_GRAY_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getCyanGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.CYAN_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getPurpleGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.PURPLE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getBlueGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.BLUE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getBrownGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.BROWN_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getGreenGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.GREEN_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRedGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.RED_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getBlackGlassDoor(color).get(), 3)
+                .pattern("PP")
+                .pattern("GG")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.BLACK_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getWhiteGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.WHITE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getOrangeGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.ORANGE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getMagentaGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.MAGENTA_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLightBlueGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.LIGHT_BLUE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getYellowGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.YELLOW_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLimeGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.LIME_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getPinkGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.PINK_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getGrayGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.GRAY_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLightGrayGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.LIGHT_GRAY_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getCyanGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.CYAN_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getPurpleGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.PURPLE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getBlueGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.BLUE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getBrownGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.BROWN_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getGreenGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.GREEN_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRedGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.RED_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getBlackGlassWindowDoor(color).get(), 3)
+                .pattern("GG")
+                .pattern("PP")
+                .pattern("PP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.BLACK_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftWhiteGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.WHITE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftOrangeGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.ORANGE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftMagentaGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.MAGENTA_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftLightBlueGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.LIGHT_BLUE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftYellowGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.YELLOW_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftLimeGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.LIME_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftPinkGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.PINK_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftGrayGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.GRAY_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftLightGrayGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.LIGHT_GRAY_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftCyanGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.CYAN_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftPurpleGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.PURPLE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftBlueGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.BLUE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftBrownGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.BROWN_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftGreenGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.GREEN_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftRedGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.RED_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getLeftBlackGlassPanelDoor(color).get(), 3)
+                .pattern("GP")
+                .pattern("GP")
+                .pattern("GP")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.BLACK_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightWhiteGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.WHITE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightOrangeGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.ORANGE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightMagentaGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.MAGENTA_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightLightBlueGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.LIGHT_BLUE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightYellowGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.YELLOW_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightLimeGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.LIME_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightPinkGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.PINK_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightGrayGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.GRAY_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightLightGrayGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.LIGHT_GRAY_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightPurpleGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.PURPLE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightBlueGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.BLUE_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightBrownGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.BROWN_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightGreenGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.GREEN_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightRedGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.RED_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.getRightBlackGlassPanelDoor(color).get(), 3)
+                .pattern("PG")
+                .pattern("PG")
+                .pattern("PG")
+                .define('P', ModBlocks.getPlanks(color).get())
+                .define('G', Blocks.BLACK_STAINED_GLASS)
+                .unlockedBy("has_" + color.blockName("planks"), has(ModBlocks.getPlanks(color)))
+                .save(recipeOutput);
+    }
 
 
     private void buildSaplingRecipe(RecipeOutput recipeOutput, TintedColor color) {

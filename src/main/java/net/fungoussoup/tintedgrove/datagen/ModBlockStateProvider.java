@@ -26,6 +26,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         for (TintedColor color : TintedColor.values()) {
             registerWoodSet(color);
             registerTreeSet(color);
+            registerDoorVariants(color);
         }
 
         for (TintedFlowerType type : TintedFlowerType.values()) {
@@ -96,11 +97,86 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 "cutout"
         );
 
+
         blockItem(ModBlocks.getWoodStairs(color));
         blockItem(ModBlocks.getWoodSlab(color));
         blockItem(ModBlocks.getWoodPressurePlate(color));
         blockItem(ModBlocks.getWoodFenceGate(color));
         blockItem(ModBlocks.getWoodTrapdoor(color), "_bottom");
+    }
+
+    private void registerDoorVariants(TintedColor color) {
+        doorBlockWithRenderType(ModBlocks.getGlassDoor(color).get(), modLoc("block/" + color.blockName("glass_door_bottom")), modLoc("block/" + color.blockName("glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getWhiteGlassDoor(color).get(), modLoc("block/" + color.blockName("white_glass_door_bottom")), modLoc("block/" + color.blockName("white_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getOrangeGlassDoor(color).get(), modLoc("block/" + color.blockName("orange_glass_door_bottom")), modLoc("block/" + color.blockName("orange_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getMagentaGlassDoor(color).get(), modLoc("block/" + color.blockName("magenta_glass_door_bottom")), modLoc("block/" + color.blockName("magenta_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLightBlueGlassDoor(color).get(), modLoc("block/" + color.blockName("light_blue_glass_door_bottom")), modLoc("block/" + color.blockName("light_blue_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getYellowGlassDoor(color).get(), modLoc("block/" + color.blockName("yellow_glass_door_bottom")), modLoc("block/" + color.blockName("yellow_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLimeGlassDoor(color).get(), modLoc("block/" + color.blockName("lime_glass_door_bottom")), modLoc("block/" + color.blockName("lime_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getPinkGlassDoor(color).get(), modLoc("block/" + color.blockName("pink_glass_door_bottom")), modLoc("block/" + color.blockName("pink_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getGrayGlassDoor(color).get(), modLoc("block/" + color.blockName("gray_glass_door_bottom")), modLoc("block/" + color.blockName("gray_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLightGrayGlassDoor(color).get(), modLoc("block/" + color.blockName("light_gray_glass_door_bottom")), modLoc("block/" + color.blockName("light_gray_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getCyanGlassDoor(color).get(), modLoc("block/" + color.blockName("cyan_glass_door_bottom")), modLoc("block/" + color.blockName("cyan_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getPurpleGlassDoor(color).get(), modLoc("block/" + color.blockName("purple_glass_door_bottom")), modLoc("block/" + color.blockName("purple_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getBlueGlassDoor(color).get(), modLoc("block/" + color.blockName("blue_glass_door_bottom")), modLoc("block/" + color.blockName("blue_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getBrownGlassDoor(color).get(), modLoc("block/" + color.blockName("brown_glass_door_bottom")), modLoc("block/" + color.blockName("brown_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getGreenGlassDoor(color).get(), modLoc("block/" + color.blockName("green_glass_door_bottom")), modLoc("block/" + color.blockName("green_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRedGlassDoor(color).get(), modLoc("block/" + color.blockName("red_glass_door_bottom")), modLoc("block/" + color.blockName("red_glass_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getBlackGlassDoor(color).get(), modLoc("block/" + color.blockName("black_glass_door_bottom")), modLoc("block/" + color.blockName("black_glass_door_top")), "translucent");
+
+        doorBlockWithRenderType(ModBlocks.getGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getWhiteGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("white_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getOrangeGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("orange_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getMagentaGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("magenta_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLightBlueGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("light_blue_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getYellowGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("yellow_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLimeGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("lime_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getPinkGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("pink_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getGrayGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("gray_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLightGrayGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("light_gray_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getCyanGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("cyan_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getPurpleGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("purple_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getBlueGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("blue_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getBrownGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("brown_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getGreenGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("green_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRedGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("red_glass_window_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getBlackGlassWindowDoor(color).get(), modLoc("block/" + color.blockName("glass_window_door_bottom")), modLoc("block/" + color.blockName("black_glass_window_door_top")), "translucent");
+
+        doorBlockWithRenderType(ModBlocks.getLeftGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftWhiteGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_white_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_white_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftOrangeGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_orange_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_orange_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftMagentaGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_magenta_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_magenta_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftLightBlueGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_light_blue_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_light_blue_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftYellowGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_yellow_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_yellow_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftLimeGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_lime_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_lime_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftPinkGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_pink_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_pink_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftGrayGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_gray_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_gray_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftLightGrayGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_light_gray_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_light_gray_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftCyanGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_cyan_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_cyan_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftPurpleGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_purple_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_purple_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftBlueGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_blue_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_blue_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftBrownGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_brown_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_brown_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftGreenGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_green_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_green_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftRedGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_red_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_red_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getLeftBlackGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("left_black_glass_panel_door_bottom")), modLoc("block/" + color.blockName("left_black_glass_panel_door_top")), "translucent");
+
+        doorBlockWithRenderType(ModBlocks.getRightGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightWhiteGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_white_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_white_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightOrangeGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_orange_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_orange_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightMagentaGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_magenta_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_magenta_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightLightBlueGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_light_blue_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_light_blue_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightYellowGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_yellow_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_yellow_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightLimeGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_lime_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_lime_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightPinkGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_pink_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_pink_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightGrayGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_gray_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_gray_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightLightGrayGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_light_gray_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_light_gray_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightCyanGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_cyan_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_cyan_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightPurpleGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_purple_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_purple_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightBlueGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_blue_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_blue_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightBrownGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_brown_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_brown_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightGreenGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_green_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_green_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightRedGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_red_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_red_glass_panel_door_top")), "translucent");
+        doorBlockWithRenderType(ModBlocks.getRightBlackGlassPanelDoor(color).get(), modLoc("block/" + color.blockName("right_black_glass_panel_door_bottom")), modLoc("block/" + color.blockName("right_black_glass_panel_door_top")), "translucent");
     }
 
     private void registerTreeSet(TintedColor color) {

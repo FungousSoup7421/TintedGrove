@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:lime_stained_glass"
+    },
+    "P": {
+      "item": "tintedgrove:white_planks"
+    }
+  },
+  "pattern": [
+    "GP",
+    "GP",
+    "GP"
+  ],
+  "result": {
+    "count": 3,
+    "id": "tintedgrove:white_left_lime_glass_panel_door"
+  }
+}
