@@ -20,6 +20,9 @@ public class ModLanguageProvider extends LanguageProvider {
         add("creativetab.tintedgrove.tinted_grove_left_glass_panel_doors", "Left Glass Panel Doors");
         add("creativetab.tintedgrove.tinted_grove_right_glass_panel_doors", "Right Glass Panel Doors");
         add("creativetab.tintedgrove.tinted_grove", "Tinted Grove");
+        add("creativetab.tintedgrove.tinted_grove_glass_trapdoors", "Glass Trapdoors");
+        add("creativetab.tintedgrove.tinted_grove_glass_grid_trapdoors", "Glass Grid Trapdoors");
+        add("creativetab.tintedgrove.tinted_grove_glass_panels_trapdoors", "Glass Panel Trapdoors");
         add("creativetab.tintedgrove.tinted_grove_trees", "Tinted Grove Trees");
         add("creativetab.tintedgrove.tinted_grove_flowers", "Tinted Grove Flowers");
 
@@ -63,6 +66,7 @@ public class ModLanguageProvider extends LanguageProvider {
             add(ModBlocks.getWoodFenceGate(color).get(), color.getDisplayName() + " Fence Gate");
             add(ModBlocks.getWoodDoor(color).get(), color.getDisplayName() + " Door");
             add(ModBlocks.getWoodTrapdoor(color).get(), color.getDisplayName() + " Trapdoor");
+            add(ModBlocks.getSmoothTrapdoor(color).get(), color.getDisplayName() + " Smooth Trapdoor");
             add(ModBlocks.getLeaves(color).get(), color.getDisplayName() + " Leaves");
             add(ModBlocks.getSapling(color).get(), color.getDisplayName() + " Sapling");
 
@@ -137,6 +141,60 @@ public class ModLanguageProvider extends LanguageProvider {
             add(ModBlocks.getRightGreenGlassPanelDoor(color).get(), color.getDisplayName() + " Right Green Stained Glass Panel Door");
             add(ModBlocks.getRightRedGlassPanelDoor(color).get(), color.getDisplayName() + " Right Red Stained Glass Panel Door");
             add(ModBlocks.getRightBlackGlassPanelDoor(color).get(), color.getDisplayName() + " Right Black Stained Glass Panel Door");
+
+            add(ModBlocks.getGlassTrapdoor(color).get(), color.getDisplayName() + " Glass Trapdoor");
+            add(ModBlocks.getWhiteGlassTrapdoor(color).get(), color.getDisplayName() + " White Stained Glass Trapdoor");
+            add(ModBlocks.getOrangeGlassTrapdoor(color).get(), color.getDisplayName() + " Orange Stained Glass Trapdoor");
+            add(ModBlocks.getMagentaGlassTrapdoor(color).get(), color.getDisplayName() + " Magenta Stained Glass Trapdoor");
+            add(ModBlocks.getLightBlueGlassTrapdoor(color).get(), color.getDisplayName() + " Light Blue Stained Glass Trapdoor");
+            add(ModBlocks.getYellowGlassTrapdoor(color).get(), color.getDisplayName() + " Yellow Stained Glass Trapdoor");
+            add(ModBlocks.getLimeGlassTrapdoor(color).get(), color.getDisplayName() + " Lime Stained Glass Trapdoor");
+            add(ModBlocks.getPinkGlassTrapdoor(color).get(), color.getDisplayName() + " Pink Stained Glass Trapdoor");
+            add(ModBlocks.getGrayGlassTrapdoor(color).get(), color.getDisplayName() + " Gray Stained Glass Trapdoor");
+            add(ModBlocks.getLightGrayGlassTrapdoor(color).get(), color.getDisplayName() + " Light Gray Stained Glass Trapdoor");
+            add(ModBlocks.getCyanGlassTrapdoor(color).get(), color.getDisplayName() + " Cyan Stained Glass Trapdoor");
+            add(ModBlocks.getPurpleGlassTrapdoor(color).get(), color.getDisplayName() + " Purple Stained Glass Trapdoor");
+            add(ModBlocks.getBlueGlassTrapdoor(color).get(), color.getDisplayName() + " Blue Stained Glass Trapdoor");
+            add(ModBlocks.getBrownGlassTrapdoor(color).get(), color.getDisplayName() + " Brown Stained Glass Trapdoor");
+            add(ModBlocks.getGreenGlassTrapdoor(color).get(), color.getDisplayName() + " Green Stained Glass Trapdoor");
+            add(ModBlocks.getRedGlassTrapdoor(color).get(), color.getDisplayName() + " Red Stained Glass Trapdoor");
+            add(ModBlocks.getBlackGlassTrapdoor(color).get(), color.getDisplayName() + " Black Stained Glass Trapdoor");
+
+            add(ModBlocks.getGlassGridTrapdoor(color).get(), color.getDisplayName() + " Glass Grid Trapdoor");
+            add(ModBlocks.getWhiteGlassGridTrapdoor(color).get(), color.getDisplayName() + " White Stained Glass Grid Trapdoor");
+            add(ModBlocks.getOrangeGlassGridTrapdoor(color).get(), color.getDisplayName() + " Orange Stained Glass Grid Trapdoor");
+            add(ModBlocks.getMagentaGlassGridTrapdoor(color).get(), color.getDisplayName() + " Magenta Stained Glass Grid Trapdoor");
+            add(ModBlocks.getLightBlueGlassGridTrapdoor(color).get(), color.getDisplayName() + " Light Blue Stained Glass Grid Trapdoor");
+            add(ModBlocks.getYellowGlassGridTrapdoor(color).get(), color.getDisplayName() + " Yellow Stained Glass Grid Trapdoor");
+            add(ModBlocks.getLimeGlassGridTrapdoor(color).get(), color.getDisplayName() + " Lime Stained Glass Grid Trapdoor");
+            add(ModBlocks.getPinkGlassGridTrapdoor(color).get(), color.getDisplayName() + " Pink Stained Glass Grid Trapdoor");
+            add(ModBlocks.getGrayGlassGridTrapdoor(color).get(), color.getDisplayName() + " Gray Stained Glass Grid Trapdoor");
+            add(ModBlocks.getLightGrayGlassGridTrapdoor(color).get(), color.getDisplayName() + " Light Gray Stained Glass Grid Trapdoor");
+            add(ModBlocks.getCyanGlassGridTrapdoor(color).get(), color.getDisplayName() + " Cyan Stained Glass Grid Trapdoor");
+            add(ModBlocks.getPurpleGlassGridTrapdoor(color).get(), color.getDisplayName() + " Purple Stained Glass Grid Trapdoor");
+            add(ModBlocks.getBlueGlassGridTrapdoor(color).get(), color.getDisplayName() + " Blue Stained Glass Grid Trapdoor");
+            add(ModBlocks.getBrownGlassGridTrapdoor(color).get(), color.getDisplayName() + " Brown Stained Glass Grid Trapdoor");
+            add(ModBlocks.getGreenGlassGridTrapdoor(color).get(), color.getDisplayName() + " Green Stained Glass Grid Trapdoor");
+            add(ModBlocks.getRedGlassGridTrapdoor(color).get(), color.getDisplayName() + " Red Stained Glass Grid Trapdoor");
+            add(ModBlocks.getBlackGlassGridTrapdoor(color).get(), color.getDisplayName() + " Black Stained Glass Grid Trapdoor");
+
+            add(ModBlocks.getGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Glass Panel Trapdoor");
+            add(ModBlocks.getWhiteGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " White Stained Glass Panel Trapdoor");
+            add(ModBlocks.getOrangeGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Orange Stained Glass Panel Trapdoor");
+            add(ModBlocks.getMagentaGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Magenta Stained Glass Panel Trapdoor");
+            add(ModBlocks.getLightBlueGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Light Blue Stained Glass Panel Trapdoor");
+            add(ModBlocks.getYellowGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Yellow Stained Glass Panel Trapdoor");
+            add(ModBlocks.getLimeGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Lime Stained Glass Panel Trapdoor");
+            add(ModBlocks.getPinkGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Pink Stained Glass Panel Trapdoor");
+            add(ModBlocks.getGrayGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Gray Stained Glass Panel Trapdoor");
+            add(ModBlocks.getLightGrayGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Light Gray Stained Glass Panel Trapdoor");
+            add(ModBlocks.getCyanGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Cyan Stained Glass Panel Trapdoor");
+            add(ModBlocks.getPurpleGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Purple Stained Glass Panel Trapdoor");
+            add(ModBlocks.getBlueGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Blue Stained Glass Panel Trapdoor");
+            add(ModBlocks.getBrownGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Brown Stained Glass Panel Trapdoor");
+            add(ModBlocks.getGreenGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Green Stained Glass Panel Trapdoor");
+            add(ModBlocks.getRedGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Red Stained Glass Panel Trapdoor");
+            add(ModBlocks.getBlackGlassPanelsTrapdoor(color).get(), color.getDisplayName() + " Black Stained Glass Panel Trapdoor");
         }
     }
 

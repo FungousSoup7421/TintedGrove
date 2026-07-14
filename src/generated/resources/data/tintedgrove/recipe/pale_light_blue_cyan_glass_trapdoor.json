@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:cyan_stained_glass"
+    },
+    "P": {
+      "item": "tintedgrove:pale_light_blue_planks"
+    }
+  },
+  "pattern": [
+    "PGP",
+    "PGP"
+  ],
+  "result": {
+    "count": 2,
+    "id": "tintedgrove:pale_light_blue_cyan_glass_trapdoor"
+  }
+}

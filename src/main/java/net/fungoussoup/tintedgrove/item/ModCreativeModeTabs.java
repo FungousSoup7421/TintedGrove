@@ -145,6 +145,7 @@ public class ModCreativeModeTabs {
                             output.accept(ModBlocks.getWoodFenceGate(color));
                             output.accept(ModBlocks.getWoodDoor(color));
                             output.accept(ModBlocks.getWoodTrapdoor(color));
+                            output.accept(ModBlocks.getSmoothTrapdoor(color));
                         }
                         output.accept(ModItems.TINTER);
 
@@ -162,10 +163,91 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PALE_YELLOW);
                     }).build());
 
+    public static final Supplier<CreativeModeTab> GLASS_TRAPDOORS_TAB = CREATIVE_MODE_TAB.register("glass_trapdoors_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.getGlassTrapdoor(TintedColor.CYAN).get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(TintedGrove.MOD_ID, "tinted_grove_tab"))
+                    .title(Component.translatable("creativetab.tintedgrove.tinted_grove_glass_trapdoors"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        for (TintedColor color : TintedColor.values()) {
+                            output.accept(ModBlocks.getGlassTrapdoor(color));
+                            output.accept(ModBlocks.getWhiteGlassTrapdoor(color));
+                            output.accept(ModBlocks.getOrangeGlassTrapdoor(color));
+                            output.accept(ModBlocks.getMagentaGlassTrapdoor(color));
+                            output.accept(ModBlocks.getLightBlueGlassTrapdoor(color));
+                            output.accept(ModBlocks.getYellowGlassTrapdoor(color));
+                            output.accept(ModBlocks.getLimeGlassTrapdoor(color));
+                            output.accept(ModBlocks.getPinkGlassTrapdoor(color));
+                            output.accept(ModBlocks.getGrayGlassTrapdoor(color));
+                            output.accept(ModBlocks.getLightGrayGlassTrapdoor(color));
+                            output.accept(ModBlocks.getCyanGlassTrapdoor(color));
+                            output.accept(ModBlocks.getPurpleGlassTrapdoor(color));
+                            output.accept(ModBlocks.getBlueGlassTrapdoor(color));
+                            output.accept(ModBlocks.getBrownGlassTrapdoor(color));
+                            output.accept(ModBlocks.getGreenGlassTrapdoor(color));
+                            output.accept(ModBlocks.getRedGlassTrapdoor(color));
+                            output.accept(ModBlocks.getBlackGlassTrapdoor(color));
+                        }
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> GLASS_GRID_TRAPDOORS_TAB = CREATIVE_MODE_TAB.register("glass_grid_trapdoors_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.getGlassGridTrapdoor(TintedColor.CYAN).get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(TintedGrove.MOD_ID, "glass_trapdoors_tab"))
+                    .title(Component.translatable("creativetab.tintedgrove.tinted_grove_glass_grid_trapdoors"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        for (TintedColor color : TintedColor.values()) {
+                            output.accept(ModBlocks.getGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getWhiteGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getOrangeGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getMagentaGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getLightBlueGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getYellowGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getLimeGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getPinkGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getGrayGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getLightGrayGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getCyanGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getPurpleGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getBlueGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getBrownGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getGreenGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getRedGlassGridTrapdoor(color));
+                            output.accept(ModBlocks.getBlackGlassGridTrapdoor(color));
+                        }
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> GLASS_PANELS_TRAPDOORS_TAB = CREATIVE_MODE_TAB.register("glass_panels_trapdoors_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.getGlassPanelsTrapdoor(TintedColor.CYAN).get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(TintedGrove.MOD_ID, "glass_grid_trapdoors_tab"))
+                    .title(Component.translatable("creativetab.tintedgrove.tinted_grove_glass_panels_trapdoors"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        for (TintedColor color : TintedColor.values()) {
+                            output.accept(ModBlocks.getGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getWhiteGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getOrangeGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getMagentaGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getLightBlueGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getYellowGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getLimeGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getPinkGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getGrayGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getLightGrayGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getCyanGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getPurpleGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getBlueGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getBrownGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getGreenGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getRedGlassPanelsTrapdoor(color));
+                            output.accept(ModBlocks.getBlackGlassPanelsTrapdoor(color));
+                        }
+                    }).build());
+
     public static final Supplier<CreativeModeTab> TINTED_GROVE_TREES_TAB = CREATIVE_MODE_TAB.register("tinted_grove_trees_tab",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModBlocks.getSapling(TintedColor.CYAN).get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(TintedGrove.MOD_ID, "tinted_grove_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(TintedGrove.MOD_ID, "glass_panels_trapdoors_tab"))
                     .title(Component.translatable("creativetab.tintedgrove.tinted_grove_trees"))
                     .displayItems((itemDisplayParameters, output) -> {
                         for (TintedColor color : TintedColor.values()) {

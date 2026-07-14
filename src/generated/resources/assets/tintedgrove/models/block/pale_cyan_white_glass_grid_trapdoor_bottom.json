@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_orientable_trapdoor_bottom",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "texture": "tintedgrove:block/pale_cyan_white_glass_grid_trapdoor"
+  }
+}

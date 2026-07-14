@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "brown_wood",
+  "key": {
+    "#": {
+      "item": "tintedgrove:stripped_brown_log"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "tintedgrove:brown_smooth_trapdoor"
+  }
+}

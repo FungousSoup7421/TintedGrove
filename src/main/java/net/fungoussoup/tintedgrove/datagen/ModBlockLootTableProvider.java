@@ -22,6 +22,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
             generateWoodSetLoot(color);
             generateTreeLoot(color);
             generateDoorVariantsLoot(color);
+            generateTrapdoorVariantsLoot(color);
         }
 
         for (TintedFlowerType type : TintedFlowerType.values()) {
@@ -51,6 +52,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.getWoodFence(color).get());
         dropSelf(ModBlocks.getWoodFenceGate(color).get());
         dropSelf(ModBlocks.getWoodTrapdoor(color).get());
+        dropSelf(ModBlocks.getSmoothTrapdoor(color).get());
 
         add(ModBlocks.getWoodDoor(color).get(),
                 block -> createDoorTable(ModBlocks.getWoodDoor(color).get()));
@@ -128,6 +130,62 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.getRightGreenGlassPanelDoor(color).get(), block -> createDoorTable(ModBlocks.getRightGreenGlassPanelDoor(color).get()));
         add(ModBlocks.getRightRedGlassPanelDoor(color).get(), block -> createDoorTable(ModBlocks.getRightRedGlassPanelDoor(color).get()));
         add(ModBlocks.getRightBlackGlassPanelDoor(color).get(), block -> createDoorTable(ModBlocks.getRightBlackGlassPanelDoor(color).get()));
+    }
+
+    private void generateTrapdoorVariantsLoot(TintedColor color) {
+        dropSelf(ModBlocks.getGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getWhiteGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getOrangeGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getMagentaGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getLightBlueGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getYellowGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getLimeGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getPinkGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getGrayGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getLightGrayGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getCyanGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getPurpleGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getBlueGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getBrownGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getGreenGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getRedGlassTrapdoor(color).get());
+        dropSelf(ModBlocks.getBlackGlassTrapdoor(color).get());
+
+        dropSelf(ModBlocks.getGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getWhiteGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getOrangeGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getMagentaGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getLightBlueGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getYellowGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getLimeGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getPinkGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getGrayGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getLightGrayGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getCyanGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getPurpleGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getBlueGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getBrownGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getGreenGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getRedGlassGridTrapdoor(color).get());
+        dropSelf(ModBlocks.getBlackGlassGridTrapdoor(color).get());
+
+        dropSelf(ModBlocks.getGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getWhiteGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getOrangeGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getMagentaGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getLightBlueGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getYellowGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getLimeGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getPinkGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getGrayGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getLightGrayGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getCyanGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getPurpleGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getBlueGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getBrownGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getGreenGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getRedGlassPanelsTrapdoor(color).get());
+        dropSelf(ModBlocks.getBlackGlassPanelsTrapdoor(color).get());
     }
 
     private void generateTreeLoot(TintedColor color) {

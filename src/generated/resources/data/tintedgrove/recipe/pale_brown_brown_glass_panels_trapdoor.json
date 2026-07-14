@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:brown_stained_glass"
+    },
+    "P": {
+      "item": "tintedgrove:pale_brown_planks"
+    }
+  },
+  "pattern": [
+    "GPG",
+    "GPG"
+  ],
+  "result": {
+    "count": 2,
+    "id": "tintedgrove:pale_brown_brown_glass_panels_trapdoor"
+  }
+}

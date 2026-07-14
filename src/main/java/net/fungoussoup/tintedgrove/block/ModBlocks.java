@@ -44,6 +44,7 @@ public class ModBlocks {
     public static final Map<TintedColor, DeferredBlock<FenceGateBlock>> WOOD_FENCE_GATES = new EnumMap<>(TintedColor.class);
     public static final Map<TintedColor, DeferredBlock<DoorBlock>> WOOD_DOORS = new EnumMap<>(TintedColor.class);
     public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> WOOD_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> SMOOTH_TRAPDOORS = new EnumMap<>(TintedColor.class);
 
     public static final Map<TintedColor, DeferredBlock<LeavesBlock>> LEAVES = new EnumMap<>(TintedColor.class);
     public static final Map<TintedColor, DeferredBlock<SaplingBlock>> SAPLINGS = new EnumMap<>(TintedColor.class);
@@ -124,15 +125,64 @@ public class ModBlocks {
     public static final Map<TintedColor, DeferredBlock<DoorBlock>> RIGHT_MAGENTA_GLASS_PANEL_DOORS = new EnumMap<>(TintedColor.class);
     public static final Map<TintedColor, DeferredBlock<DoorBlock>> RIGHT_PINK_GLASS_PANEL_DOORS = new EnumMap<>(TintedColor.class);
 
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> WHITE_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> ORANGE_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> MAGENTA_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> LIGHT_BLUE_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> YELLOW_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> LIME_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> PINK_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> GRAY_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> LIGHT_GRAY_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> CYAN_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> PURPLE_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> BLUE_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> BROWN_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> GREEN_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> RED_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> BLACK_GLASS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> WHITE_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> ORANGE_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> MAGENTA_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> LIGHT_BLUE_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> YELLOW_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> LIME_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> PINK_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> GRAY_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> LIGHT_GRAY_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> CYAN_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> PURPLE_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> BLUE_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> BROWN_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> GREEN_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> RED_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> BLACK_GLASS_GRID_TRAPDOORS = new EnumMap<>(TintedColor.class);
+
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> WHITE_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> ORANGE_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> MAGENTA_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> LIGHT_BLUE_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> YELLOW_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> LIME_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> PINK_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> GRAY_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> LIGHT_GRAY_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> CYAN_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> PURPLE_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> BLUE_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> BROWN_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> GREEN_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> RED_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+    public static final Map<TintedColor, DeferredBlock<TrapDoorBlock>> BLACK_GLASS_PANELS_TRAPDOORS = new EnumMap<>(TintedColor.class);
+
     static {
         registerAllWoodSets();
         registerAllFlowers();
     }
-
-//    public static final DeferredBlock<Block> BLUE_DANDELION = registerBlock("blue_dandelion",
-//            () -> new FlowerBlock(MobEffects.SATURATION, 8, BlockBehaviour.Properties.ofFullCopy(Blocks.DANDELION)));
-//    public static final DeferredBlock<Block> POTTED_BLUE_DANDELION = BLOCKS.register("potted_blue_dandelion",
-//            () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), BLUE_DANDELION, BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_DANDELION)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
@@ -196,9 +246,9 @@ public class ModBlocks {
         return WOOD_DOORS.get(color);
     }
 
-    public static DeferredBlock<TrapDoorBlock> getWoodTrapdoor(TintedColor color) {
-        return WOOD_TRAPDOORS.get(color);
-    }
+    public static DeferredBlock<TrapDoorBlock> getWoodTrapdoor(TintedColor color) {return WOOD_TRAPDOORS.get(color);}
+
+    public static DeferredBlock<TrapDoorBlock> getSmoothTrapdoor(TintedColor color) {return SMOOTH_TRAPDOORS.get(color);}
 
     public static DeferredBlock<LeavesBlock> getLeaves(TintedColor color) {
         return LEAVES.get(color);
@@ -280,6 +330,60 @@ public class ModBlocks {
     public static DeferredBlock<DoorBlock> getRightRedGlassPanelDoor(TintedColor color) {return RIGHT_RED_GLASS_PANEL_DOORS.get(color);}
     public static DeferredBlock<DoorBlock> getRightBlackGlassPanelDoor(TintedColor color) {return RIGHT_BLACK_GLASS_PANEL_DOORS.get(color);}
 
+    public static DeferredBlock<TrapDoorBlock> getGlassTrapdoor(TintedColor color) {return GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getWhiteGlassTrapdoor(TintedColor color) { return WHITE_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getOrangeGlassTrapdoor(TintedColor color) { return ORANGE_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getMagentaGlassTrapdoor(TintedColor color) { return MAGENTA_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getLightBlueGlassTrapdoor(TintedColor color) { return LIGHT_BLUE_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getYellowGlassTrapdoor(TintedColor color) { return YELLOW_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getLimeGlassTrapdoor(TintedColor color) { return LIME_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getPinkGlassTrapdoor(TintedColor color) { return PINK_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getGrayGlassTrapdoor(TintedColor color) { return GRAY_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getLightGrayGlassTrapdoor(TintedColor color) { return LIGHT_GRAY_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getCyanGlassTrapdoor(TintedColor color) { return CYAN_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getPurpleGlassTrapdoor(TintedColor color) { return PURPLE_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getBlueGlassTrapdoor(TintedColor color) { return BLUE_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getBrownGlassTrapdoor(TintedColor color) { return BROWN_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getGreenGlassTrapdoor(TintedColor color) { return GREEN_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getRedGlassTrapdoor(TintedColor color) { return RED_GLASS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getBlackGlassTrapdoor(TintedColor color) { return BLACK_GLASS_TRAPDOORS.get(color); }
+
+    public static DeferredBlock<TrapDoorBlock> getGlassGridTrapdoor(TintedColor color) { return GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getWhiteGlassGridTrapdoor(TintedColor color) { return WHITE_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getOrangeGlassGridTrapdoor(TintedColor color) { return ORANGE_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getMagentaGlassGridTrapdoor(TintedColor color) { return MAGENTA_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getLightBlueGlassGridTrapdoor(TintedColor color) { return LIGHT_BLUE_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getYellowGlassGridTrapdoor(TintedColor color) { return YELLOW_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getLimeGlassGridTrapdoor(TintedColor color) { return LIME_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getPinkGlassGridTrapdoor(TintedColor color) { return PINK_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getGrayGlassGridTrapdoor(TintedColor color) { return GRAY_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getLightGrayGlassGridTrapdoor(TintedColor color) { return LIGHT_GRAY_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getCyanGlassGridTrapdoor(TintedColor color) { return CYAN_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getPurpleGlassGridTrapdoor(TintedColor color) { return PURPLE_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getBlueGlassGridTrapdoor(TintedColor color) { return BLUE_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getBrownGlassGridTrapdoor(TintedColor color) { return BROWN_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getGreenGlassGridTrapdoor(TintedColor color) { return GREEN_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getRedGlassGridTrapdoor(TintedColor color) { return RED_GLASS_GRID_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getBlackGlassGridTrapdoor(TintedColor color) { return BLACK_GLASS_GRID_TRAPDOORS.get(color); }
+
+    public static DeferredBlock<TrapDoorBlock> getGlassPanelsTrapdoor(TintedColor color) { return GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getWhiteGlassPanelsTrapdoor(TintedColor color) { return WHITE_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getOrangeGlassPanelsTrapdoor(TintedColor color) { return ORANGE_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getMagentaGlassPanelsTrapdoor(TintedColor color) { return MAGENTA_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getLightBlueGlassPanelsTrapdoor(TintedColor color) { return LIGHT_BLUE_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getYellowGlassPanelsTrapdoor(TintedColor color) { return YELLOW_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getLimeGlassPanelsTrapdoor(TintedColor color) { return LIME_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getPinkGlassPanelsTrapdoor(TintedColor color) { return PINK_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getGrayGlassPanelsTrapdoor(TintedColor color) { return GRAY_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getLightGrayGlassPanelsTrapdoor(TintedColor color) { return LIGHT_GRAY_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getCyanGlassPanelsTrapdoor(TintedColor color) { return CYAN_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getPurpleGlassPanelsTrapdoor(TintedColor color) { return PURPLE_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getBlueGlassPanelsTrapdoor(TintedColor color) { return BLUE_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getBrownGlassPanelsTrapdoor(TintedColor color) { return BROWN_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getGreenGlassPanelsTrapdoor(TintedColor color) { return GREEN_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getRedGlassPanelsTrapdoor(TintedColor color) { return RED_GLASS_PANELS_TRAPDOORS.get(color); }
+    public static DeferredBlock<TrapDoorBlock> getBlackGlassPanelsTrapdoor(TintedColor color) { return BLACK_GLASS_PANELS_TRAPDOORS.get(color); }
+
     private static void registerDoorVariants(TintedColor color) {
         GLASS_DOORS.put(color, registerBlock(color.blockName("glass_door"), () -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_DOOR).noOcclusion())));
         WHITE_GLASS_DOORS.put(color, registerBlock(color.blockName("white_glass_door"), () -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_DOOR).noOcclusion())));
@@ -354,6 +458,61 @@ public class ModBlocks {
         RIGHT_BLACK_GLASS_PANEL_DOORS.put(color, registerBlock(color.blockName("right_black_glass_panel_door"), () -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_DOOR).noOcclusion())));
     }
 
+    private static void registerTrapdoorVariants(TintedColor color) {
+        GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        WHITE_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("white_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        ORANGE_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("orange_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        MAGENTA_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("magenta_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        LIGHT_BLUE_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("light_blue_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        YELLOW_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("yellow_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        LIME_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("lime_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        PINK_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("pink_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        GRAY_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("gray_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        LIGHT_GRAY_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("light_gray_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        CYAN_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("cyan_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        PURPLE_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("purple_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        BLUE_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("blue_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        BROWN_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("brown_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        GREEN_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("green_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        RED_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("red_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        BLACK_GLASS_TRAPDOORS.put(color, registerBlock(color.blockName("black_glass_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+
+        GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        WHITE_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("white_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        ORANGE_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("orange_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        MAGENTA_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("magenta_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        LIGHT_BLUE_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("light_blue_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        YELLOW_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("yellow_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        LIME_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("lime_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        PINK_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("pink_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        GRAY_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("gray_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        LIGHT_GRAY_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("light_gray_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        CYAN_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("cyan_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        PURPLE_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("purple_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        BLUE_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("blue_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        BROWN_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("brown_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        GREEN_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("green_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        RED_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("red_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        BLACK_GLASS_GRID_TRAPDOORS.put(color, registerBlock(color.blockName("black_glass_grid_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+
+        GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        WHITE_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("white_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        ORANGE_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("orange_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        MAGENTA_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("magenta_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        LIGHT_BLUE_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("light_blue_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        YELLOW_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("yellow_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        LIME_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("lime_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        PINK_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("pink_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        GRAY_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("gray_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        LIGHT_GRAY_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("light_gray_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        CYAN_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("cyan_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        PURPLE_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("purple_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        BLUE_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("blue_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        BROWN_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("brown_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        GREEN_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("green_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        RED_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("red_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+        BLACK_GLASS_PANELS_TRAPDOORS.put(color, registerBlock(color.blockName("black_glass_panels_trapdoor"), () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+    }
 
     private static void registerWoodSet(TintedColor color) {
         LOGS.put(color, registerBlock(color.blockName("log"),
@@ -401,6 +560,10 @@ public class ModBlocks {
                 () -> new TrapDoorBlock(BlockSetType.OAK,
                         BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
 
+        SMOOTH_TRAPDOORS.put(color, registerBlock(color.blockName("smooth_trapdoor"),
+                () -> new TrapDoorBlock(BlockSetType.OAK,
+                        BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion())));
+
         LEAVES.put(color, registerBlock(color.blockName("leaves"),
                 () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)) {
                     @Override
@@ -429,6 +592,7 @@ public class ModBlocks {
         for (TintedColor color : TintedColor.values()) {
             registerWoodSet(color);
             registerDoorVariants(color);
+            registerTrapdoorVariants(color);
         }
     }
 
